@@ -1,6 +1,6 @@
 # baseURL = 'https://OpenDataforWeb3.github.io/'
 languageCode = 'en-us'
-title = 'Open Data for Web3'
+title = 'OpenData for Web3'
 theme = "m10c"
 
 [params]
