@@ -12,7 +12,7 @@ description = "A place for the Web3 data community."
 ## Open Graph
 images = ["avatar.jpg"]
 ogLocale = "en_US"
-domainTLD = "spacetristan.github.io"
+domainTLD = "opendataforweb3.github.io"
 titleHome = "OpenData Community"
 
 ## Twitter Cards
