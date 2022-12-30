@@ -21,23 +21,23 @@
   weight = 20
 
 [[main]]
-  name = "Get Started"
+  name = "About Us"
   weight = 30
-  identifier = "get-started"
+  identifier = "about-us"
 
 [[main]]
-  name = "About Us"
+  name = "Notion"
   weight = 40
-  identifier = "quick-start"
-  url = "/blog/what-is-odc/"
-  parent = "get-started"
+  identifier = "notion"
+  url = "https://auspicious-cap-b5c.notion.site/Open-Data-Community-92925147d2f042189b7cb5dd0204428b"
+  parent = "about-us"
 
 [[main]]
   name = "FAQ"
   weight = 50
   identifier = "faq"
   url = "/docs/faq/faq/"
-  parent = "get-started"
+  parent = "about-us"
 
 [[social]]
   name = "GitHub"
