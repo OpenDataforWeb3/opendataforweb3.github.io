@@ -1,43 +1,53 @@
-[[docs]]
-  name = "Help"
-  weight = 60
-  identifier = "help"
-  url = "/docs/help/"
-
-[[docs]]
-  name = "FAQ"
-  weight = 70
-  identifier = "faq"
-  url = "docs/faq/"
-
 [[main]]
   name = "Docs"
-  url = "/docs/"
+  identifier = "docs"
   weight = 10
+
+[[main]]
+  name = "FAQ"
+  weight = 20
+  identifier = "1faq"
+  url = "/docs/faq/faq/"
+  parent = "docs"
+
+  [[main]]
+  name = "Glossary"
+  weight = 30
+  identifier = "2glossary"
+  url = "/docs/faq/glossary/"
+  parent = "docs"
+
+[[main]]
+  name = "Data Dictionary"
+  weight = 40
+  identifier = "data-dictionary"
+  url = "/docs/faq/data-dictionary/"
+  parent = "docs"
+
+[[main]]
+  name = "Landscape"
+  weight = 40
+  identifier = "landscape"
+  url = "/docs/landscape/"
+  parent = "docs"
 
 [[main]]
   name = "Blog"
   url = "/blog/"
-  weight = 20
+  weight = 50
 
 [[main]]
   name = "About Us"
-  weight = 30
+  weight = 60
   identifier = "about-us"
+  url = "/about-us/"
 
 [[main]]
-  name = "Notion"
-  weight = 40
-  identifier = "notion"
-  url = "https://auspicious-cap-b5c.notion.site/Open-Data-Community-92925147d2f042189b7cb5dd0204428b"
-  parent = "about-us"
+  name = "Hackathon"
+  weight = 70
+  identifier = "hackathon"
+  url = "https://gitcoin.co/hackathons"
 
-[[main]]
-  name = "FAQ"
-  weight = 50
-  identifier = "faq"
-  url = "/docs/faq/faq/"
-  parent = "about-us"
 
 [[social]]
   name = "GitHub"
