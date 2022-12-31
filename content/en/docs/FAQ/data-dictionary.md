@@ -1,7 +1,7 @@
 ---
 title: "Data Dictionary"
 description: "Data Dictionary"
-lead: "Data Dictionary"
+lead: ""
 date: 2022-12-25T21:55:02-03:00
 lastmod: 2022-12-25T21:55:02-03:00
 draft: false
@@ -18,4 +18,4 @@ toc: true
 ---
 
 
-To Be Completed
+ 🚧 Under Construction 🚧 
