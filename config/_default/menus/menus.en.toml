@@ -4,31 +4,38 @@
   weight = 10
 
 [[main]]
-  name = "FAQ"
+  name = "Landscape"
   weight = 20
+  identifier = "landscape"
+  url = "/docs/landscape/"
+  parent = "docs"
+
+[[main]]
+  name = "Resources"
+  weight = 30
+  identifier = "Resources"
+  url = "/docs/resources/"
+  parent = "docs"
+
+[[main]]
+  name = "FAQ"
+  weight = 40
   identifier = "1faq"
-  url = "/docs/faq/faq/"
+  url = "/docs/faq/"
   parent = "docs"
 
   [[main]]
   name = "Glossary"
-  weight = 30
+  weight = 40
   identifier = "2glossary"
-  url = "/docs/faq/glossary/"
+  url = "/docs/glossary/"
   parent = "docs"
 
 [[main]]
   name = "Data Dictionary"
   weight = 40
   identifier = "data-dictionary"
-  url = "/docs/faq/data-dictionary/"
-  parent = "docs"
-
-[[main]]
-  name = "Landscape"
-  weight = 40
-  identifier = "landscape"
-  url = "/docs/landscape/"
+  url = "/docs/data-dictionary/"
   parent = "docs"
 
 [[main]]
