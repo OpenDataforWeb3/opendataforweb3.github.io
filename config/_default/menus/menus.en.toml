@@ -4,13 +4,6 @@
   weight = 10
 
 [[main]]
-  name = "Landscape"
-  weight = 20
-  identifier = "landscape"
-  url = "/docs/landscape/"
-  parent = "docs"
-
-[[main]]
   name = "Resources"
   weight = 30
   identifier = "Resources"
