@@ -53,7 +53,7 @@
   name = "Hackathon"
   weight = 70
   identifier = "hackathon"
-  url = "https://gitcoin.co/hackathons"
+  url = "https://gitcoin.co/hackathon/DataBuilders/?"
 
 
 [[social]]
