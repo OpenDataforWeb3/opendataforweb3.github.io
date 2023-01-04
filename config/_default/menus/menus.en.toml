@@ -37,13 +37,6 @@
   weight = 50
 
 [[main]]
-  name = "Data Builder Hackathon"
-  weight = 40
-  identifier = "data-builder-hackathon"
-  url = "/blog/databuilderhackathon"
-  parent = "blog"
-
-[[main]]
   name = "About Us"
   weight = 60
   identifier = "about-us"
