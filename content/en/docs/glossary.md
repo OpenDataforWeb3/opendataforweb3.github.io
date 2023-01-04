@@ -1,7 +1,7 @@
 ---
 title: "Glossary"
 description: "Glossary."
-lead: "Glossary"
+lead: ""
 date: 2022-12-25T21:55:02-03:00
 lastmod: 2022-12-25T21:55:02-03:00
 draft: false
