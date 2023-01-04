@@ -2,7 +2,7 @@
 title : "Data Builder Hackathon"
 description: "Data Builder Hackathon"
 lead: " Anti-Sybil and Anti-Centralization DataBuilders Hackathon kicks off 2023"
-contributors: "Evan Powell"
+contributors: ["Evan Powell"]
 date: 2022-12-27T22:26:54+01:00
 lastmod: 2022-12-27T22:26:54+01:00
 draft: false
