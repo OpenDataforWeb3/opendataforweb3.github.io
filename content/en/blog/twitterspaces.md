@@ -2,14 +2,11 @@
 title : "OpenData Community Hackathon: Partners host educational Twitter Spaces"
 description: "OpenData Community Hackathon: Partners host educational Twitter Spaces"
 lead: "Fight Sybils, Decentralize Data"
-contributors: ["Baokiddy"]
-date: 2022-12-27T22:26:54+01:00
-lastmod: 2022-12-27T22:26:54+01:00
+contributors: ["Evan Powell"]
+date: 2023-01-09T12:00
 draft: false
 images: []
 ---
-
-*January 9, 2023*
 
 The OpenData Community DataBuilder Hackathon is off to a great start.  We are seeing approximately 2x the interest so far versus our October 2022 Hackathon. There is something for everyone interested in competing for $40,000 in bounties while defending and growing web3 while taking a decentralized approach.
 
