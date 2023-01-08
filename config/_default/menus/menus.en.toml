@@ -48,6 +48,11 @@
   identifier = "hackathon"
   url = "https://gitcoin.co/hackathon/DataBuilders/?"
 
+[[main]]
+  name = "Calendar"
+  weight = 70
+  identifier = "calendar"
+  url = "https://calendar.google.com/calendar/embed?src=698a35b1c1a24bdae78f30cbe3fc081c5fbb681c748a45df61040c6e6f26c932%40group.calendar.google.com&ctz=America%2FLos_Angeles"
 
 [[social]]
   name = "GitHub"
