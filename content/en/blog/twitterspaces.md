@@ -2,7 +2,7 @@
 title : "OpenData Community Hackathon: Partners host educational Twitter Spaces"
 description: "OpenData Community Hackathon: Partners host educational Twitter Spaces"
 lead: "Fight Sybils, Decentralize Data"
-contributors: ["Evan Powell"]
+contributors: ["Baokiddy"]
 date: 2022-12-27T22:26:54+01:00
 lastmod: 2022-12-27T22:26:54+01:00
 draft: false
