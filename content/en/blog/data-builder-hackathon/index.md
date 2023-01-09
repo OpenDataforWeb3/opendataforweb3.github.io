@@ -4,14 +4,13 @@ description: "Data Builder Hackathon"
 lead: " Anti-Sybil and Anti-Centralization DataBuilders Hackathon kicks off 2023"
 contributors: ["Evan Powell"]
 date: 2022-12-27T22:26:54+01:00
-lastmod: 2022-12-27T22:26:54+01:00
+lastmod: 2023-01-04T22:26:54+01:00
 weight: 50
 draft: false
 images: [strange.gif]
 ---
 
 *Fight Sybils, Decentralize Data*
-January 4, 2023
 
 Happy New Year everyone!
 
