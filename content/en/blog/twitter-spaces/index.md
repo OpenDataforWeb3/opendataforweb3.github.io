@@ -8,10 +8,6 @@ date: 2023-01-09T22:26:54+01:00
 lastmod: 2023-01-09T22:26:54+01:00
 draft: false
 images: [holding_up_sign_twitterspace.jpg]
-categories: []
-tags: []
-pinned: false
-homepage: false
 ---
 
 The OpenData Community DataBuilder Hackathon is off to a great start.  We are seeing approximately 2x the interest so far versus our October 2022 Hackathon. There is something for everyone interested in competing for $40,000 in bounties while defending and growing web3 while taking a decentralized approach.
