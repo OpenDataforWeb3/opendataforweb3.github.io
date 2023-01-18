@@ -18,8 +18,7 @@ To build an incentivized network that can fight the recentralization of web3 at 
 ### Active Projects
 1. Bootstrapping the ODC Community [join us on discord](https://discord.gg/8zMHkgscrf)
 2. [Data-Builder Hackthon](https://gitcoin.co/hackathon/DataBuilders/?) ending January 31st 
-3. A useful curation of decentralized data solutions in web3
-> [The Landscape](https://github.com/OpenDataforWeb3/Landscape/)
+3. [The Landscape](https://github.com/OpenDataforWeb3/Landscape/) a useful curation of decentralized data solutions in web3
 
 
 ### Our Focus
