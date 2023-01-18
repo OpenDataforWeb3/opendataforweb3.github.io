@@ -9,26 +9,35 @@ images: []
 ---
 
 ## What is the ODC?
-The OpenData Community is an open source community originally founded by Gitcoin as a part of their efforts to enable communities to fund their shared needs.
+> The OpenData Community is a new initiative originally founded by Gitcoin. Through activities like hackathons, knowledge gathering, and others, we hope to create, capture and distribute value to those building decenlatrized solutions for an Open Data Layer for web3
 
-Our mission is to protect web3, focusing on:
 
-- Sybil resistence through data science and the development of useful algorithms and other approaches
-- Resisting recentralization and potential capture at the data layer
+### Our mission
+To build an incentivized network that can fight the recentralization of web3 at the data layer & and promote decentralized solutions to unlock a capture resistant future for web3
 
-If we collectively do not resist Sybil attacks then one of the real bright spots of web3 - the collective funding of public goods - could be captured by essentially criminal forces.  Similarly if we continue to all take short cuts when accessing and analyzing blockchain data then we are adding vulnerability to the ecosystem right above the decentralized blockchains in the form of centralization.  
+### Active Projects
+1. Bootstrapping the ODC Community [join us on discord](https://discord.gg/8zMHkgscrf)
+2. [Data-Builder Hackthon](https://gitcoin.co/hackathon/DataBuilders/?) ending January 31st 
+3. A useful curation of decentralized data solutions in web3
+> [The Landscape](https://github.com/OpenDataforWeb3/Landscape/)
 
-We want to highlight values such as:
 
-- openness - working in public and actively requesting input
-- candor - being direct and facts based
-- inclusive - making a particular effort to welcome and invite a breadth of perspectives
-- initiative - we are action oriented and respect and appreciate those that take on responsibility
+### Our Focus
+- Sybil Resistance
+- Decentralized Data Infrastructure & Applications
 
-One of our projects is to collectively currate useful solutions that enable data analysts to find insights while remaining decentralized.  Your feedback and input into the Landscape and all other materials we publish is hugely valuable - as are your stars on the repository and amplification on social media.  
+> ### Why Does it Matter?
+    - Sybil resistance is the fight against fake accounts.  If we collectively do not resist Sybil attacks, one of the real bright spots of web3 - the collective funding of public goods - could be captured by criminal forces.  
 
-## [The Landscape](https://github.com/OpenDataforWeb3/Landscape/)
+    - Decentralized Data Infrastructure & Applications are essential for combating the recentralization of data.  If we continue to take short cuts when accessing and analyzing blockchain data, we are adding vulnerability to the ecosystem right above the decentralized blockchains.   
 
-## Join Us
+### Our Values
+- Open Source
+- Decentralization
+- Transparency
+- Freedom
+
+
+### More info
 
 Find more [details of what we are doing and when by reviewing our wiki here](https://github.com/OpenDataforWeb3/Landscape/wiki). 
