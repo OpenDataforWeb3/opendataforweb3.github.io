@@ -195,3 +195,4 @@ Some projects are enabling the sharing of data and related analysis.
 - [Docs](https://docs.oceanprotocol.com/)
 - Summary: *Ocean Protocol is a suite of decentralized tools to unlock data at a large scale.*
 - Experience with ODC community: **Very strong - strongly preferred as a part of January 2023 hackathon.**
+
