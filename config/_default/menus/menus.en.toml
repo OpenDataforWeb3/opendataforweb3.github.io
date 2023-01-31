@@ -32,6 +32,13 @@
   parent = "docs"
 
 [[main]]
+  name = "Legos"
+  weight = 40
+  identifier = "legos"
+  url = "/docs/legos/"
+  parent = "docs"
+
+[[main]]
   name = "Blog"
   url = "/blog/"
   weight = 50
