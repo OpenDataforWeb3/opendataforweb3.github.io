@@ -9,27 +9,34 @@ draft: false
 images: []
 ---
 
-Our last hackathon occurred from Jan 5th till Jan 31st , competitors collaborated to 4 different bounties, each with a different focus like helping the community growth, developing dashboards,
-identifying sybil behaviors through exploratory analysis and packaging algorithms in “Legos” that can be chained together with the intention to collaborate 
-for an accurate classification of sybil wallets.  Details about the competition can be found in this [post](https://opendatacommunity.org/blog/data-builder-hackathon/) about the hackathon opening.  
+Hello and thanks for being interested in the ODC! As you may know our last hackathon took place from Jan 5th till Jan 31st and competitors could start projects in 4 different areas(bounties), each with a different focus:  
+  
+- developing anti sybil- dashboards  
+- hacking the hackaton by helping the community grow/ creating educational materials(such as FAQs)  
+- identifying sybil behaviors through exploratory data analysis  
+packaging algorithms in “Legos” that can be chained together with the intention to collaborate for an accurate classification of sybil wallets  
+More details about the competition can be found in this [post](https://opendatacommunity.org/blog/data-builder-hackathon/) about the hackathon opening.
 
-We had an intense month with projects feedback sections together with FDD analysts, twitter spaces with sponsors and a lot more
-. What about the results? Incredible! We had 53 submissions and 29 winning projects that shared 40K in prizes, the projects range from python packages to 
-whole decentralized data frameworks that can integrate live dashboards, details and other results can be here on this [hackathon wrap up presentation](https://docs.google.com/presentation/d/1Ic4p9o2pLHETjBv1N9v4wkLTYToZxh-GP6Bo8ICtkko/edit#slide=id.g20c507cff6c_0_1)
-Most important of all, some projects developed in the hackathon demonstrate great value, scalability and potential to be strong weapons in the fight against sybil 
-attacks, mainly in the distribution of public funds.  
+We are proud to say that we've had an intense month filled with project feedback sessions(together with FDD analysts and other experts), twitter spaces with our sponsors and guests all while running the actual hackaton itself.  
+
+So...What about the results? They were incredible! We had 53 submissions in total with 29 projects that won and shared 40K in prizes! The projects range from analysis tools to python packages to
+whole decentralized data frameworks that can integrate live dashboards. More details and the hackaton results can be here on this [hackathon wrap up presentation](https://docs.google.com/presentation/d/1Ic4p9o2pLHETjBv1N9v4wkLTYToZxh-GP6Bo8ICtkko/edit#slide=id.g20c507cff6c_0_1)
+The best part is that besides the fact that a lot of people participated in the hackaton and submitted great projects, a lot of those projects demonstrated great value, scalability and potential to be strong weapons in the fight against sybil
+attacks, mainly in the distribution of public funds.   
 
 Therefore, we are very pleased to announce the birth of the OpenData Community Sandbox, a space to foster the maturation of these projects.
 In the coming weeks, the community will discuss which will be the initial projects invited to join the Sandbox, 
 these projects will be able to rely on numerous benefits such as:
 
 **Tooling**
+  
 - Repositories inside ODC github   
 - Dedicated Discord channel  
 - Educational help on setting tools up   
   
-**Promotion**   
-- web site listings   
+**Exposure**   
+  
+- Website listings   
 - Twitter spaces   
 - Ongoing promotion through ODC channels   
 - Featured inclusion in the [ODC Landscape](https://opendatacommunity.org/docs/landscape/)
@@ -38,15 +45,16 @@ these projects will be able to rely on numerous benefits such as:
 **Technical help**
 - Mentorship   
 - Feature in Hackathons   
-- Ongoing hackathon - aka bounties to accelerate and attract contributions  
+- Bounties to accelerate and attract contributions 
 
 **Network**  
+- People that have a passion for open data and an open internet
 - Community builders engagement and contributions (including some FDD/Gitcoin members) 
-- Other DAOs core members   
+- Various DAO core members and some prolific figures from web3
 - Possible sponsors  
 
-To follow the development of the Sandbox keep an eye on our [ODC Sandbox github repo](https://github.com/OpenDataforWeb3/sandbox) and our channels, 
-till 1st of April we will already have projects set to start development and accept contributions. Join us!   
+To follow the development of the Sandbox keep an eye on our [ODC Sandbox Github Repo](https://github.com/OpenDataforWeb3/sandbox) and our channels.   
+Our goal is to have projects set to start development and accept contributions until the 1st of April. Join us in building our open data dreams!
 
 
 
