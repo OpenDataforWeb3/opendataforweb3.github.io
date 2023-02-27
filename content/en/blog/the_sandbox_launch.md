@@ -5,8 +5,9 @@ lead: "Fight Sybils, Decentralize Data"
 contributors: ["Stefi"]
 date: 2023-02-19T22:26:54+01:00
 lastmod: 2023-02-19T22:26:54+01:00
+weight: 50
 draft: false
-images: []
+images: [sandbox-toolbox.jpeg]
 ---
 
 Hello and thanks for being interested in the ODC! As you may know our last hackathon took place from Jan 5th till Jan 31st and competitors could start projects in 4 different areas(bounties), each with a different focus:  
@@ -55,8 +56,3 @@ these projects will be able to rely on numerous benefits such as:
 
 To follow the development of the Sandbox keep an eye on our [ODC Sandbox Github Repo](https://github.com/OpenDataforWeb3/sandbox) and our channels.   
 Our goal is to have projects set to start development and accept contributions until the 1st of April. Join us in building our open data dreams!
-
-
-
-
-
