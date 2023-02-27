@@ -25,9 +25,8 @@ whole decentralized data frameworks that can integrate live dashboards. More det
 The best part is that besides the fact that a lot of people participated in the hackaton and submitted great projects, a lot of those projects demonstrated great value, scalability and potential to be strong weapons in the fight against sybil
 attacks, mainly in the distribution of public funds.   
 
-Therefore, we are very pleased to announce the birth of the OpenData Community Sandbox, a space to foster the maturation of these projects.
-In the coming weeks, the community will discuss which will be the initial projects invited to join the Sandbox, 
-these projects will be able to rely on numerous benefits such as:
+Therefore, we are very pleased to announce the birth of the [OpenData Community Sandbox](https://github.com/OpenDataforWeb3/sandbox), a space to foster the maturation of these projects.
+In the coming weeks, the community will discuss which will be the initial projects invited to join the Sandbox, these projects will be able to rely on numerous benefits such as:
 
 **Tooling**
   
@@ -54,5 +53,9 @@ these projects will be able to rely on numerous benefits such as:
 - Various DAO core members and some prolific figures from web3
 - Possible sponsors  
 
-To follow the development of the Sandbox keep an eye on our [ODC Sandbox Github Repo](https://github.com/OpenDataforWeb3/sandbox) and our channels.   
-Our goal is to have projects set to start development and accept contributions until the 1st of April. Join us in building our open data dreams!
+Do you have a project that would be a great fit with us? Please, contact us! 
+Our goal is to have projects set to start development and accept contributions by April 1st . Join us in building our open data dreams!   
+
+[Discord](https://discord.gg/95xanZhu)   
+[Twitter](https://twitter.com/OpenDataforWeb3)   
+
