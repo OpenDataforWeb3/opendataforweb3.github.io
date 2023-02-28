@@ -2,13 +2,19 @@
 title : "The ODC Sandbox Launch"
 description: "OpenData Community Hackathon: Partners host educational Twitter Spaces"
 lead: "Fight Sybils, Decentralize Data"
-contributors: ["Stefi"]
-date: 2023-02-19T22:26:54+01:00
-lastmod: 2023-02-19T22:26:54+01:00
-weight: 50
+excerpt: ""
+date: 2023-02-27T22:32:39-03:00
+lastmod: 2023-02-27T22:32:39-03:00
 draft: false
+weight: 50
 images: [sandbox-toolbox.jpeg]
+categories: []
+tags: []
+contributors: ["Stefi"]
+pinned: false
+homepage: false
 ---
+
 
 Hello and thanks for being interested in the ODC! As you may know our last hackathon took place from Jan 5th till Jan 31st and competitors could start projects in 4 different areas(bounties), each with a different focus:  
   
@@ -58,4 +64,3 @@ Our goal is to have projects set to start development and accept contributions b
 
 [Discord](https://discord.gg/95xanZhu)   
 [Twitter](https://twitter.com/OpenDataforWeb3)   
-
