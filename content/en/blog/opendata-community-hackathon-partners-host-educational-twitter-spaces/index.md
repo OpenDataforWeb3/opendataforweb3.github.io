@@ -2,11 +2,17 @@
 title : "OpenData Community Hackathon: Partners host educational Twitter Spaces"
 description: "OpenData Community Hackathon: Partners host educational Twitter Spaces"
 lead: "Fight Sybils, Decentralize Data"
-contributors: ["Evan Powell"]
+excerpt: ""
 date: 2023-01-09T22:26:54+01:00
 lastmod: 2023-01-09T22:26:54+01:00
 draft: false
-images: []
+weight: 50
+images: [holding_up_sign_twitterspace.jpg]
+categories: []
+tags: []
+contributors: ["Evan Powell"]
+pinned: false
+homepage: false
 ---
 
 The OpenData Community DataBuilder Hackathon is off to a great start.  We are seeing approximately 2x the interest so far versus our October 2022 Hackathon. There is something for everyone interested in competing for $40,000 in bounties while defending and growing web3 while taking a decentralized approach.
@@ -47,3 +53,4 @@ Again - to join the Hackathon, which runs through January 31st, please see:  [ht
 OpenData Community:
 
 The mission of the OpenData Community is to defend web3 from the related risks of Sybil attacks and centralization at the data layer. Current initiatives of the ODC include a Landscape of decentralized solutions including TrueBlocks and others, AMAs with project creators, how-to videos and FAQs, and hackathons such as the current DataBuilders hackathon. The ODC was founded in 2022 by Gitcoin and benefits tremendously from the expertise of Gitcoin data scientists and the support of the Gitcoin DAO and Gitcoin community.  [http://opendatacommunity.org/](http://opendatacommunity.org/)
+
