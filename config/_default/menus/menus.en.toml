@@ -39,6 +39,13 @@
   parent = "docs"
 
 [[main]]
+  name = "Get Involved"
+  weight = 40
+  identifier = "Get-Involved"
+  url = "/docs/get-involved/"
+  parent = "docs"
+
+[[main]]
   name = "Blog"
   url = "/blog/"
   weight = 50
