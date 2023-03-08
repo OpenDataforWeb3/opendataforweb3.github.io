@@ -1,6 +1,6 @@
 ---
-title : "About Us"
-description: "About Us"
+title : "Get Involved"
+description: "How to get involved"
 lead: ""
 date: 2022-12-30T23:48:45+00:00
 lastmod: 2022-12-30T23:48:45+00:00
@@ -8,27 +8,44 @@ draft: false
 images: []
 ---
 
-## What is the ODC?
-The OpenData Community is an open source community originally founded by Gitcoin as a part of their efforts to enable communities to fund their shared needs.
+# Get Involved & Build the ODC
 
-Our mission is to protect web3, focusing on:
+Make sure to check out our [CONTRIBUTING docs](https://github.com/OpenDataforWeb3/Resources/blob/main/CONTRIBUTING.md) to learn how you can collaborate with us on Github.
 
-- Sybil resistence through data science and the development of useful algorithms and other approaches
-- Resisting recentralization and potential capture at the data layer
+We've started Working Groups for the ODC! Publishing & Comms, Engineering & Infra, Biz Dev
 
-If we collectively do not resist Sybil attacks then one of the real bright spots of web3 - the collective funding of public goods - could be captured by essentially criminal forces.  Similarly if we continue to all take short cuts when accessing and analyzing blockchain data then we are adding vulnerability to the ecosystem right above the decentralized blockchains in the form of centralization.  
+### Publishing & Comms Working Group
+Responsibilities: In charge of creating public facing content and keeping the organizations content up to date in various locations
 
-We want to highlight values such as:
+- Twitter Management (Posts, Spaces, etc)
+- Discord Management (Announcements, channels, etc)
+- Website Content (messaging and publishing)
+- Github Content
+- Podcast Management
+- Dealing with Marketing Vendors
+- Managing any other public forums of the ODC
 
-- openness - working in public and actively requesting input
-- candor - being direct and facts based
-- inclusive - making a particular effort to welcome and invite a breadth of perspectives
-- initiative - we are action oriented and respect and appreciate those that take on responsibility
+To join these groups, please see the [Publishing & Comms](https://discord.gg/ZfRAV8rRRW) discord channel
 
-One of our projects is to collectively currate useful solutions that enable data analysts to find insights while remaining decentralized.  Your feedback and input into the Landscape and all other materials we publish is hugely valuable - as are your stars on the repository and amplification on social media.  
 
-## [The Landscape](https://github.com/OpenDataforWeb3/Landscape/)
+### Engineering & Infra
+Responsibilities: Set up and maintain all of the ODC's infrastructure and provide technical support for ODC activities
 
-## Join Us
+- Hackathon Support
+- Github Management
+- Website Management
+- Discord Tech Management
+- Tech Solutions for ODC needs
 
-Find more [details of what we are doing and when by reviewing our wiki here](https://github.com/OpenDataforWeb3/Landscape/wiki). 
+To join these groups, please see the [Engineering & Infra](https://discord.gg/mRUnKwJB9B) discord channel
+
+### Business Development
+Responsibilities: To help the ODC become a sustainable business
+
+- Business Model Identification
+- Business Strategy
+- Partnerships
+- Token Design
+- Documentation (business plan, pitch deck, etc)
+
+To join these groups, please see the [Biz Dev](https://discord.gg/sQfZpZNVRC) discord channel
