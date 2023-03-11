@@ -1,0 +1,36 @@
+{{ define "main" }}
+<section class="section section-sm">
+  <div class="container">
+    <div class="row justify-content-center mt-lg-3">
+      <div class="col-lg-12 text-center">
+        <h1>{{ .Title }}</h1>
+      </div>
+      <div class="row">
+        {{ with .Site.GetPage "/about-us/first_section.md" }}
+        <div class="col-lg-8">
+          <div class="row">
+            <h2>{{.Title}}</h2>
+            <p>{{.Content}}</p>
+          </div>
+          {{ end }}
+
+          <div class="row">
+            <h2>{{ .Params.value }}</h2>
+            <p>{{ .Content }}</p>
+          </div>
+        </div>
+        {{ with .Site.GetPage "/about-us/second_section.md" }}
+        <div class="col-lg-8">
+          <h2>{{.Title}}</h2>
+          <p>{{.Content}}</p>
+        </div>
+        {{ end }}
+      </div>
+
+      {{ with .Site.GetPage "/about-us/footer.md" }}
+      <div class="col-lg-12 mt-lg-5 text-center">{{ .Content }}</div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
