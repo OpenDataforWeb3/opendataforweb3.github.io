@@ -63,6 +63,11 @@
   url = "https://gitcoin.co/hackathon/DataBuilders/?"
 
 [[main]]
+  name = "Forum"
+  url = "https://forum.opendatacommunity.org/"
+  weight = 50
+
+[[main]]
   name = "Calendar"
   weight = 70
   identifier = "calendar"
