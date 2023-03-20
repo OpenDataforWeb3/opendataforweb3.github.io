@@ -67,6 +67,11 @@
     <div class="col-lg-12 text-center">
       <p class="mt-0">{{ .Params.description2}}</p>
     </div>
+    {{ with .Site.GetPage "/second_sec.md" }}
+    <div class="col-lg-12 col-xl-12 col-xsm-12 text-center">
+        <p>{{.Content}}</p>
+      </div>
+      {{ end }}
   </div>
 </section>
 {{ end }}
