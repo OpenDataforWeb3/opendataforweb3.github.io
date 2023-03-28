@@ -1,18 +1,30 @@
-<footer class="footer text-muted">
-  <div class="container-{{ if .Site.Params.options.fullWidth }}fluid{{ else }}xxl{{ end }}">
-    <div class="row">
-      <div class="col-lg-8 order-last order-lg-first">
-        <ul class="list-inline">
-          <li class="list-inline-item">{{ .Site.Params.footer | safeHTML }}</li>
-        </ul>
-      </div>
-      <div class="col-lg-8 order-first order-lg-last text-lg-end">
-        <ul class="list-inline">
-          {{ range .Site.Menus.footer -}}
-            <li class="list-inline-item"><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
-          {{ end -}}
-        </ul>
-      </div>
+<footer class="footer">
+  <div class="container-fluid">
+<div class="row justify-content-around">
+    <div class="col-xsm-12 col-sm-12 col-md-4 col-lg-5 col-xlg-5 text-center">
+      {{ with .Site.GetPage "/footer/resources.md" }}
+
+      <h2 ><strong>{{.Title}} </strong></h2>
+      {{.Content}}
+      {{end}}
+
     </div>
+    <div class="col-xsm-12 col-sm-12 col-md-4 col-lg-3 col-xlg-3 text-center">
+      {{ with .Site.GetPage "/footer/join-us.md" }}
+
+      <h2><strong>{{.Title}} </strong></h2>
+      {{.Content}}
+      {{end}}
+    </div>
+    <div class="col-xsm-12 col-sm-12 col-md-4 col-lg-4 col-xlg-4 text-center">
+      {{ with .Site.GetPage "/footer/contribute.md" }}
+
+      <h2><strong>{{.Title}} </strong></h2>
+      {{.Content}}
+      {{end}}
+
+    </div>
+  </div>
+
   </div>
 </footer>
