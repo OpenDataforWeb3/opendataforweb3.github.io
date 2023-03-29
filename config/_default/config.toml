@@ -8,6 +8,8 @@ enableRobotsTXT = true
 paginate = 7
 rssLimit = 10
 
+[params]
+custom_css = ["css/styles.css"]
 # Multilingual
 defaultContentLanguage = "en"
 disableLanguages = ["de", "nl"]
