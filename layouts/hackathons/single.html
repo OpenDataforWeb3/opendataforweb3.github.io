@@ -1,0 +1,207 @@
+{{ define "main" }}
+<div id="box" class="container-fluid">
+  <div id="hero-img" class=" row">
+    <div id="hero-text" class="col">
+      <span>
+        <h1 style="font-size: 5rem">{{.Title}}</h1>
+        <h1 style="margin-top: 0px">{{.Params.title2}}</h1>
+        <h2><strong>{{.Params.description}}</strong></h2>
+        <p>{{.Params.description2}}</p>
+        <a
+          class="btn btn-primary btn-lg mb-2"
+          href="https://github.com/OpenDataforWeb3/Resources/wiki"
+          role="button"
+          >Join Now</a
+        >
+      </span>
+    </div>
+    <div class="custom-shape-divider-bottom-1679790863">
+      <svg
+        data-name="Layer 1"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1200 120"
+        preserveAspectRatio="none"
+      >
+        <path d="M1200 0L0 0 892.25 114.72 1200 0z" class="shape-fill"></path>
+      </svg>
+    </div>
+  </div>
+  <div class="row dark-section py-5">
+    {{ with .Site.GetPage "/hackathons/about-the-hackathon.md" }}
+
+    <div class="col-xsm-12 col-sm-12 col-md-7 col-lg-7 col-xlg-7">
+      <span>
+        <h2 id="title_text"><b> {{.Title}} </b></h2>
+        <p>{{.Content}}</p>
+
+        <button
+          type="button"
+          class="btn btn-primary"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
+          Read More
+        </button>
+      </span>
+    </div>
+    {{end}}
+
+    <div class="col d-flex justify-content-center">
+      {{ $asset := resources.Get "./shield.jpg" }}
+      <figure class="image is-3by2">
+        <img alt="sh" src="{{$asset.RelPermalink}}" />
+      </figure>
+    </div>
+  </div>
+  <div class="row" id="blue-section">
+    <div class="custom-shape-divider-top-1679849767">
+      <svg
+        data-name="Layer 1"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1200 120"
+        preserveAspectRatio="none"
+      >
+        <path d="M1200 0L0 0 892.25 114.72 1200 0z" class="shape-fill"></path>
+      </svg>
+    </div>
+
+    <div class="col d-flex justify-content-center">
+      {{ $asset := resources.Get "/coin.png" }} {{ $img := $asset.Fit "500x350"
+      }}
+      <figure class="image is-3by2">
+        <img alt="coin" src="{{$img.RelPermalink}}" />
+      </figure>
+    </div>
+    {{ with .Site.GetPage "/hackathons/bounty.md" }}
+
+    <div class="col-xsm-12 col-sm-12 col-md-7 col-lg-8 col-xlg-8 text-center">
+      <h2 id="title_text"><strong>{{.Title}} </strong></h2>
+      {{.Content}}
+    </div>
+   {{end}}
+
+   <div class="custom-shape-divider-bottom-1679959583">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M1200 0L0 0 892.25 114.72 1200 0z" class="shape-fill"></path>
+    </svg>
+</div>
+  </div>
+
+  <div
+    class="row justify-content-center align-items-start"
+    style=" background-color: #1f374a;
+    "
+  >
+    <div class="col justify-content-center align-items-start text-center" style="height: 170px;">
+      <h2>{{.Params.sponsors}}</h2>
+    </div>
+  </div>
+
+  <div class="row justify-content-center pb-5" style=" background-image: linear-gradient(#1f374a,#010407);height: 250px;">
+    <div class="col-xsm-12 col-sm-12 col-lg-6 col-xlg-6 justify-content-center align-items-start ">
+      <div class="partners d-flex justify-content-between">
+        {{ $asset := resources.Get "/gitcoin.svg" }}
+        <img
+          style="height: 100px; width: 100px"
+          alt="gitcoin"
+          src="{{$asset.RelPermalink}}"
+        />
+        {{ $asset := resources.Get "/os.png" }} {{ $img := $asset.Fit "100x100"
+        }}
+        <img
+          style="height: 100px; width: 100px"
+          alt="osean"
+          src="{{$img.RelPermalink}}"
+        />
+        {{ $asset := resources.Get "/xyz.png" }} {{ $img := $asset.Fit
+        "100x100" }}
+        <img
+          style="height: 100px; width: 100px"
+          alt="xyz"
+          src="{{$img.RelPermalink}}"
+        />
+      </div>
+    </div>
+    <div class="col-xsm-12 col-sm-12 col-lg-6 col-xlg-6 justify-content-center align-items-start ">
+      <div class="partners d-flex justify-content-evenly">
+        {{ $asset := resources.Get "/trueblocks.png" }} {{ $img := $asset.Fit
+        "100x100" }}
+        <img
+          style="height: 100px; width: 100px"
+          alt="true"
+          src="{{$img.RelPermalink}}"
+        />
+        {{ $asset := resources.Get "/pokt.png" }} {{ $img := $asset.Fit "100x100"
+        }}
+        <img style="height: 80px" alt="pokt"   src="{{$img.RelPermalink}}"
+        />
+      </div>
+    </div>
+  </div>
+
+  <div id="conclusion" class="row" style="position:relative">
+    <!-- <div class="custom-shape-divider-top-1679959677">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M1200 0L0 0 892.25 114.72 1200 0z" class="shape-fill"></path>
+      </svg>
+    </div> -->
+    {{ with .Site.GetPage "/hackathons/conclusion.md" }}
+
+    <div class="col pt-5">
+      <div class="text-center">
+        {{.Content}}
+      </div>
+    </div>
+    {{end}}
+    <div
+      id="con"
+      class="col-xsm-12 col-sm-12 col-md-6 col-lg-6 col-xlg-8 conclusion-img"
+    ></div>
+  </div>
+  {{ with .Site.GetPage "/hackathons/previous-hackathons.md" }}
+
+  <div id="footer-img" class="row">
+    <div id="footer-img-text" class="col text-center">
+      <div class="justify-content-start">
+        <h2 id="title_text">{{.Title}}</h2>
+          {{.Content}}
+      </div>
+    </div>
+  </div>
+{{end}}
+</div>
+<!-- Modal -->
+<div
+  class="modal fade"
+  id="exampleModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div
+      class="modal-content"
+      style="background-color: #203c50; color: rgb(194, 194, 194);min-width:600px;"
+    >
+      <div class="modal-header">
+        <h2
+          class="modal-title"
+          id="exampleModalLabel"
+          style="color: rgb(194, 194, 194)"
+        >
+          {{.Params.about}}
+        </h2>
+      </div>
+      <div class="modal-body header-bar" style="color: rgb(194, 194, 194)">
+        {{.Content}}
+      </div>
+      <div class="modal-footer header-bar">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+{{ end }}

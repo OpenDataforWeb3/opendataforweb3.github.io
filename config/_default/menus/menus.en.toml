@@ -57,10 +57,10 @@
   url = "/about-us/"
 
 [[main]]
-  name = "Hackathon"
-  weight = 70
-  identifier = "hackathon"
-  url = "https://gitcoin.co/hackathon/DataBuilders/?"
+ weight = 700
+ name = "Hackathon"
+ identifier = "hackathon"
+ url = "/hackathons/hackathon"
 
 [[main]]
   name = "Forum"
