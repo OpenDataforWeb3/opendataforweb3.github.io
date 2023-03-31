@@ -43,7 +43,7 @@ contributors: [""]
    - Stand up a ETL pipeline using a pipeline [from] (https://github.com/blockchain-etl/ethereum-etl
    - Extend a pipeline to upload analysis and data sets on the Ocean Protocol marketplace
 
-### Potential - exposing DeFi and DAO fraud and manipulation
+### Exposing DeFi and DAO fraud and manipulation
 
 - Apply existing ODC and Gitcoin developed Legos - to other related use cases such as:
   - Wash trading:  Derive a score showing what percentage of trades in a given period on a given chain appear to be due to Sybil coordinated wash trades

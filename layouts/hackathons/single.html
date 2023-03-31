@@ -49,7 +49,7 @@
     <div class="col d-flex justify-content-center">
       {{ $asset := resources.Get "./shield.jpg" }}
       <figure class="image is-3by2">
-        <img alt="sh" src="{{$asset.RelPermalink}}" />
+        <img alt="odc-shield" src="{{$asset.RelPermalink}}" />
       </figure>
     </div>
   </div>
@@ -98,43 +98,45 @@
   </div>
 
   <div class="row justify-content-center pb-5" style=" background-image: linear-gradient(#1f374a,#010407);height: 250px;">
-    <div class="col-xsm-12 col-sm-12 col-lg-6 col-xlg-6 justify-content-center align-items-start ">
-      <div class="partners d-flex justify-content-between">
+    <div class="col-xsm-12 col-sm-12 col-lg-8 col-xlg-8 pb-5 pl-5 ">
+      <div class="partners d-flex justify-content-around align-items-end">
         {{ $asset := resources.Get "/gitcoin.svg" }}
         <img
           style="height: 100px; width: 100px"
           alt="gitcoin"
           src="{{$asset.RelPermalink}}"
         />
-        {{ $asset := resources.Get "/os.png" }} {{ $img := $asset.Fit "100x100"
+        {{ $asset := resources.Get "/ocean.png" }} {{ $img := $asset.Fit "100x100"
         }}
         <img
-          style="height: 100px; width: 100px"
-          alt="osean"
+        class=" d-flex  align-items-end"
+          style="height: 80px; width: 80px"
+          alt="oseanProtocol"
           src="{{$img.RelPermalink}}"
         />
-        {{ $asset := resources.Get "/xyz.png" }} {{ $img := $asset.Fit
-        "100x100" }}
-        <img
-          style="height: 100px; width: 100px"
-          alt="xyz"
-          src="{{$img.RelPermalink}}"
-        />
+        {{ $asset := resources.Get "/trueblocks.png" }} {{ $img := $asset.Fit
+          "100x100" }}
+          <img
+            style="height: 100px; width: 100px"
+            alt="trueblocks"
+            src="{{$img.RelPermalink}}"
+          />
+
       </div>
     </div>
-    <div class="col-xsm-12 col-sm-12 col-lg-6 col-xlg-6 justify-content-center align-items-start ">
-      <div class="partners d-flex justify-content-evenly">
-        {{ $asset := resources.Get "/trueblocks.png" }} {{ $img := $asset.Fit
-        "100x100" }}
-        <img
-          style="height: 100px; width: 100px"
-          alt="true"
-          src="{{$img.RelPermalink}}"
-        />
+    <div class="col-xsm-12 col-sm-12 col-lg-4 col-xlg-4  pb-5">
+      <div class="partners d-flex justify-content-around align-items-center pl-5">
         {{ $asset := resources.Get "/pokt.png" }} {{ $img := $asset.Fit "100x100"
         }}
-        <img style="height: 80px" alt="pokt"   src="{{$img.RelPermalink}}"
+        <img style="height: 75px;" alt="poktNetwork"   src="{{$img.RelPermalink}}"
         />
+        {{ $asset := resources.Get "/xyz.png" }} {{ $img := $asset.Fit
+          "100x100" }}
+          <img
+            style="height: 110px; width: 110px"
+            alt="Supermodular.xyz"
+            src="{{$img.RelPermalink}}"
+          />
       </div>
     </div>
   </div>
@@ -178,10 +180,10 @@
   aria-labelledby="exampleModalLabel"
   aria-hidden="true"
 >
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-lg">
     <div
       class="modal-content"
-      style="background-color: #203c50; color: rgb(194, 194, 194);min-width:600px;"
+      style="background-color: #203c50; color: rgb(194, 194, 194);"
     >
       <div class="modal-header">
         <h2
