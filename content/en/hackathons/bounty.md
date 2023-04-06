@@ -9,5 +9,5 @@ contributors: [""]
 images: []
 
 ---
-**$45,000** in bounties, And
-**other benefits, Including:** Potential inclusion in the OpenData Community Sandbox to help grow projects. Give access to mentorship and advancement towards becoming a Regen Ranger or a potentially elected governance leader.
+**Up to $40,000** in bounties, And
+**other benefits, Including:** Earning points towards qualification as a Regen Ranger, receiving on-chain recognition, and being invited to continue your project with the support of the OpenData Community.  
