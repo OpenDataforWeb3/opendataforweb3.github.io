@@ -11,5 +11,5 @@ contributors: [""]
 ---
 
 
-With each hackathon, the OpenData Community improves its ability to protect web3 from fraudsters and from the risks of centralization at the data layer. In the upcoming Regen Rangers hackathon from April 25th through May 15th of 2023, the ODC will continue to provide useful analysis and tools while also furthering knowledge of how to use data decentralization technologies.
+With each hackathon, the OpenData Community improves its ability to protect web3 from fraudsters and from the risks of centralization at the data layer. In the upcoming Regen Rangers hackathon from April 25th through May 15th of 2023, the ODC will continue to provide useful analysis and tools while also furthering knowledge of how to use data decentralization technologies.  And - we will will introduce the Regen Rangers to the broader web3 ecosystem.  
 
