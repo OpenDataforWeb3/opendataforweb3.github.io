@@ -9,11 +9,11 @@ images: []
 contributors: [""]
 
 ---
-Help protect web3 from fraudsters and the perils of centralization at the data layer, By:
+Help protect web3 from fraudsters and the perils of centralization at the data layer, by:
 
 **Finding fraud in public goods funding**
 
-**Web3 Tool Discovery (resisting data recentralization).**
+**Perform Quests demonstrating an understanding of data decentralization**
 
 **Exposing DeFi and DAO fraud and manipulation.**
 
