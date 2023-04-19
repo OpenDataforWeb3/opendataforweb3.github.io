@@ -2,7 +2,8 @@
 title: "REGEN RANGERS"
 title2: "HACKATHON"
 description: "April 25th - May 15th, 2023"
-description2: "The third edition of OpenData Community Hackathon"
+description2: "Use data analysis for good - Win $40k in bounties"
+
 lead: ""
 sponsors: "Partners"
 date: 2020-11-04T09:19:42+01:00
@@ -29,7 +30,7 @@ contributors: [""]
      - The Grant Review Sandbox project hosted by the OpenData Community will be a foundation of this bounty.
    - Contributing to sustainability and modularity of the Sybil prevention and identification ecosystem via documentation and contribution to Gitcoin Passport:
      - Analyze existing stamps, using historic data and known Sybils.  Suggest any modification of these stamps.
-     - Update this analysis with data from the round, highlighting any differences in efficacy by the round, such as Climate vs. OpenSource rounds.  
+     - Update this analysis with data from the round, highlighting any differences in efficacy by the round, such as Climate vs. OpenSource rounds.
 
 ### Quests in support of decentralization
 
