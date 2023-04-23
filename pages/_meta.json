@@ -24,7 +24,13 @@
   },
   "blog": {
     "title": "Blog",
-    "type": "page"
+    "type": "page",
+    "theme": {
+      "toc": false,
+      "pagination": true,
+      "breadcrumb": false
+
+    }
   },
   "hackathon": {
     "title": "Hackathon",
