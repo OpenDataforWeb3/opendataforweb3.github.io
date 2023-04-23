@@ -1,4 +1,10 @@
 {
+  "name": "nextra-docs-template",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start"
+  },
   "dependencies": {
     "next": "^13.3.0",
     "nextra": "^2.4.0",
