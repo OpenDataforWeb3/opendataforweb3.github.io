@@ -1,5 +1,5 @@
 import styles from "../styles/components/AIPoweredDocs.module.css";
-import Markprompt from "./Markprompt";
+import { Markprompt } from "./Markprompt";
 import { motion } from "framer-motion";
 import { NAV_LINKS } from "../utils/utils";
 

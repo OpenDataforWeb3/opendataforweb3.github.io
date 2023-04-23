@@ -12,7 +12,15 @@
   },
   "about": {
     "title": "About us",
-    "type": "page"
+    "type": "page",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": false,
+      "toc": false,
+      "pagination": false,
+      "typesetting": "article"
+    }
   },
   "blog": {
     "title": "Blog",

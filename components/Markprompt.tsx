@@ -227,4 +227,3 @@ export const Markprompt = ({
   );
 };
 
-export default Markprompt;

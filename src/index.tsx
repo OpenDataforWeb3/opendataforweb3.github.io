@@ -7,7 +7,6 @@ import { Benefits } from "../components/Benefits";
 export default function Home() {
   return (
     <>
-      <main>
         <Hero />
 
         <WhatIsOdc />
@@ -17,7 +16,6 @@ export default function Home() {
         <WhoAreTheRegenRangers />
 
         <Benefits />
-      </main>
     </>
   );
 }
