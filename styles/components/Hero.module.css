@@ -1,0 +1,123 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 60px 0px;
+  margin-top: 10px;
+}
+
+.hero img {
+  width: 350px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.textContent {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.textContent h2 {
+  font-size: 45px;
+  margin: 10px 0px;
+  color: #000000;
+  font-weight: 600;
+}
+
+.textContent span {
+  color: #791ab8;
+}
+
+.textContent p {
+  color: #000000;
+  margin: 30px 0px 40px 0px;
+  font-size: 16px;
+}
+
+.heroButton {
+  padding: 14px 18px;
+  background-color: #28162e;
+  color: #fff;
+  margin: 20px 0px;
+  font-size: 15px;
+  border-radius: 8px;
+}
+
+.heroButton:hover {
+  background-color: #791ab8;
+}
+
+@media screen and (min-width: 900px) {
+  .hero {
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 30px auto;
+  }
+
+  .hero img {
+    flex-basis: 45%;
+    text-align: center;
+    margin-bottom: 0px;
+    text-align: left;
+  }
+
+  .textContent {
+    width: 70%;
+    text-align: left;
+    padding: 0px 30px;
+    margin-right: -10%;
+  }
+
+  .textContent h2 {
+    font-size: 55px;
+    font-weight: bold;
+  }
+
+  .textContent p {
+    font-size: 16px;
+    margin: 30px 0px 40px 0px;
+    width: 80%;
+  }
+
+  .heroButton {
+    padding: 16px 20px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .textContent h2 {
+    font-size: 70px;
+  }
+
+  .textContent p {
+    font-size: 21px;
+    width: 95%;
+  }
+}
+
+@media screen and (min-width: 1350px) {
+  .textContent h2 {
+    font-size: 85px;
+    width: 95%;
+  }
+
+  .textContent p {
+    font-size: 21px;
+    width: 75%;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .textContent h2 {
+    font-size: 95px;
+    width: 95%;
+  }
+}

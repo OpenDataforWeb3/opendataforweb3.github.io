@@ -1,0 +1,129 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  border-bottom: 2px solid #eeeeee;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.menu {
+  width: 80px;
+  height: 60px;
+  padding: 10px;
+  position: absolute;
+  right: 0px;
+}
+
+.links {
+  display: none;
+}
+
+.socials {
+  display: none;
+}
+
+.docs {
+  display: none;
+}
+
+.docsDropDown {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    justify-content: flex-start;
+    background-color: #fff;
+  }
+
+  .docs {
+    display: inline-block;
+    position: relative;
+    margin: 0px 50px;
+  }
+
+  .docsDropDown {
+    position: absolute;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    background-color: #f5f5f5;
+  }
+
+  .docsDropDown div {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .docsDropDown div a {
+    margin: 10px;
+    color: #000;
+    border-bottom: 1px solid #832cac;
+    padding: 5px 0px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .docsDropDown div a:hover {
+    scale: 1.1;
+    color: #791ab8;
+    border-bottom: 1px solid#000;
+  }
+
+  .docs:hover {
+    scale: 1.1;
+    color: #9117d3;
+    font-weight: bold;
+  }
+
+  .logo {
+    margin-right: 30px;
+  }
+
+  .links {
+    display: flex;
+  }
+
+  .links a {
+    color: #000;
+    font-size: 16px;
+    margin: 20px 12px;
+  }
+
+  .links a:hover {
+    color: #791ab8;
+    scale: 1.1;
+  }
+
+  .socials {
+    display: flex;
+    position: absolute;
+    right: 40px;
+  }
+
+  .socials a img {
+    width: 32px;
+    height: 28px;
+    margin: 5px;
+  }
+
+  .socials a img:hover {
+    scale: 1.5;
+  }
+
+  .menu {
+    display: none;
+  }
+}
+
+.hide {
+  display: none;
+}
