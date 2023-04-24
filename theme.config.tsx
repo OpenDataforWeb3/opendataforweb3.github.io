@@ -2,13 +2,15 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 import { useRouter } from 'next/router';
 import Link from "next/link";
+import FooterNav from "./components/Footer";
 
-const title = 'ODC';
+const title = "ODC"
 const config: DocsThemeConfig = {
+
   logo: (
     <>
-      <img src="/ODC.svg" width={24} height={24} />
-      <span style={{ marginLeft: ".4em", fontWeight: 800 }}>{title}</span>
+      <img src="ODC.svg" width={24} height={24} />
+      <span style={{ marginLeft: ".4em", fontWeight: 800 }}>OpenData Community</span>
     </>
   ),
   search: {
@@ -20,9 +22,6 @@ const config: DocsThemeConfig = {
   chat: {
     link: "https://discord.gg/gitcoin",
   },
-  footer: {
-    text: "OpenData Community",
-  },
   navbar: {
     extraContent() {
       return (
@@ -30,22 +29,29 @@ const config: DocsThemeConfig = {
       )
     }
   },
-  // useNextSeoProps() {
-  //   const { route } = useRouter()
-  //   if (route !== '/') {
-  //     return {
-  //       titleTemplate: `%s – ${title}`
-  //     }
-  //   }
-  //   return {
-  //     titleTemplate: `${title}`
-  //   }
-  // },
+  footer: {
+    component: <FooterNav />
+  },
+  nextThemes: {
+    defaultTheme: "light",
+  },
+  useNextSeoProps() {
+    const { asPath } = useRouter()
+    if (asPath !== '/') {
+      return {
+        titleTemplate: `%s – ${title}`
+      }
+    }
+  },
+
   head: (
     <>
+     <title>OpenData Community</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta property="og:title" content={title} />
+      <meta property="og:title" content={title}/>
       <meta property="og:description" content="The OpenData Community" />
+      <link rel="icon" href="favicon.svg" />
+
     </>
   ),
 

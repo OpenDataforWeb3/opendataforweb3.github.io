@@ -6,8 +6,8 @@ const withNextra = require('nextra')({
   themeConfig: './theme.config.tsx',
 });
 
-let assetPrefix = '/'
-let basePath = ''
+let assetPrefix = '/odc/'
+let basePath = '/odc'
 
 module.exports = {
   ...withNextra(),

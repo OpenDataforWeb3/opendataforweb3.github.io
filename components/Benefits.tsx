@@ -28,32 +28,32 @@ export const Benefits = () => {
         variants={textVariants}
       >
         <motion.div className={styles.box} whileHover={boxHover}>
-          <img src="../Illustrations/judge.svg" />
+          <img src="illustrations/judge.svg" />
           <p>Role as a hackathon judge</p>
         </motion.div>
 
         <motion.div className={styles.boxAsh} whileHover={boxHover}>
-          <img src="../Illustrations/tooling.svg" />
+          <img src="illustrations/tooling.svg" />
           <p>Access to tooling and Infrastructure</p>
         </motion.div>
 
         <motion.div className={styles.box} whileHover={boxHover}>
-          <img src="../Illustrations/governance.svg" />
+          <img src="illustrations/governance.svg" />
           <p>Governance - full weight on votes</p>
         </motion.div>
 
         <motion.div className={styles.boxAsh} whileHover={boxHover}>
-          <img src="../Illustrations/feedback.svg" />
+          <img src="illustrations/feedback.svg" />
           <p>Feedback from community via PRs, Discord</p>
         </motion.div>
 
         <motion.div className={styles.box} whileHover={boxHover}>
-          <img src="../Illustrations/services.svg" />
+          <img src="illustrations/services.svg" />
           <p>Potential access to professional service opportunities</p>
         </motion.div>
 
         <motion.div className={styles.boxAsh} whileHover={boxHover}>
-          <img src="../Illustrations/badge.svg" />
+          <img src="illustrations/badge.svg" />
           <p>Earn The Regen Rangers Badge as you climb the ranks</p>
         </motion.div>
       </motion.div>

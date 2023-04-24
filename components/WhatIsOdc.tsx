@@ -29,7 +29,7 @@ export const WhatIsOdc = () => {
     <div className={styles.container}>
       <div className={styles.whatIsOdc}>
         <motion.img
-          src="../Illustrations/purple_glitter.svg"
+          src="illustrations/purple_glitter.svg"
           height="1000"
           width="1000"
           initial="hidden"
