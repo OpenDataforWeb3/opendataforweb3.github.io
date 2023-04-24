@@ -1,21 +1,21 @@
 import { SOCIAL_LINKS, NAV_LINKS } from "../utils/utils";
 import styles from "../styles/components/Footer.module.css";
 
-export const Footer = () => {
+export default function Footer(){
   return (
     <div className={styles.container}>
       <div className={styles.footer}>
         <div className={styles.socials}>
           <a href={SOCIAL_LINKS["twitter"]} target="_blank">
-            <img src="/home/Socials/twitter_white.svg" />
+            <img src="../Socials/twitter_white.svg" />
           </a>
 
           <a href={SOCIAL_LINKS["github"]} target="_blank">
-            <img src="/home/Socials/github_white.svg" />
+            <img src="../Socials/github_white.svg" />
           </a>
 
           <a href={SOCIAL_LINKS["discord"]} target="_blank">
-            <img src="/home/Socials/discord_white.svg" />
+            <img src="../Socials/discord_white.svg" />
           </a>
         </div>
 

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="400px" height="400px" viewBox="0 0 400 400" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M0 0L400 0L400 400L0 400L0 0Z" id="path_1" />
+    <path d="M133.079 199.183C133.079 161.335 163.683 130.652 201.434 130.652C239.185 130.652 269.789 161.335 269.789 199.183C269.789 237.032 239.185 267.715 201.434 267.715C163.683 267.715 133.079 237.032 133.079 199.183Z" id="path_2" />
+    <clipPath id="clip_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+    <clipPath id="clip_2">
+      <use xlink:href="#path_2" />
+    </clipPath>
+  </defs>
+  <g id="Twitter/LinkedIn Profile Photo" clip-path="url(#clip_1)">
+    <path d="M0 0L400 0L400 400L0 400L0 0Z" id="TwitterLinkedIn-Profile-Photo" fill="#FFFFFF" fill-opacity="0" fill-rule="evenodd" stroke="none" />
+    <g id="Oval-2">
+      <g clip-path="url(#clip_2)">
+        <use xlink:href="#path_2" fill="none" stroke="#2E0B3B" stroke-width="40" />
+      </g>
+    </g>
+    <path d="M76.6065 164.906L85.1509 131.969L56.3136 88.4062L85.6849 59.1875L131.611 88.4063L164.72 76.7187L178.605 23.0625L218.123 22L228.803 65.5625L265.117 86.2812L308.907 60.25L341.482 88.4063L313.179 131.969L326.53 167.031L377.796 174.469L381 222.281L327.598 230.25L313.179 264.781L344.686 310.469L314.247 340.75L273.661 313.656L234.678 326.938L220.259 377.937L177.537 379L171.129 329.063L131.611 314.719L92.0932 342.344L57.3817 309.406L87.821 270.094L75.0044 232.375L21.068 221.219L20 180.844L76.6065 164.906Z" id="Vector-4" fill="none" fill-rule="evenodd" stroke="#2E0B3B" stroke-width="18" />
+  </g>
+</svg>

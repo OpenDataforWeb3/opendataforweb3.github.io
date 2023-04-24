@@ -28,7 +28,7 @@ const WithCaret = ({ Component, children, ...rest }) => {
   );
 };
 
-export const Markprompt = ({
+export default function Markprompt({
   model,
   projectKey,
   iDontKnowMessage: _iDontKnowMessage,
@@ -37,7 +37,7 @@ export const Markprompt = ({
   didCompleteFirstQuery,
   onDark,
   completionsUrl,
-}:any) => {
+}:any){
   const [prompt, setPrompt] = useState(undefined);
   const [answer, setAnswer] = useState("");
   const [references, setReferences] = useState([]);
@@ -87,7 +87,7 @@ export const Markprompt = ({
             },
             body: JSON.stringify({
               prompt,
-              model: model ,//||DEFAULT_MODEL
+              model: model || 'gpt-3.5-turbo',
               iDontKnowMessage,
               projectKey,
             }),

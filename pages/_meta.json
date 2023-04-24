@@ -3,6 +3,7 @@
     "title": "Home",
     "type": "page",
     "theme": {
+      "layout": "full",
       "breadcrumb": false,
       "footer": true,
       "sidebar": false,
