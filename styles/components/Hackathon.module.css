@@ -36,7 +36,7 @@ article div.nx-mt-16
   }
   
   .heroImg{
-    background-image:radial-gradient(rgba(0, 0, 0, 0.9), rgba(248, 248, 248, 0.4)), url("/images/hero.png")!important;
+    background-image:radial-gradient(rgba(0, 0, 0, 0.9), rgba(248, 248, 248, 0.4)), url("./hero.png")!important;
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
@@ -140,7 +140,7 @@ article div.nx-mt-16
   /* footer section */
   .footerImg{
     color: rgb(194, 194, 194);
-    background-image: url("/images/footer.png");
+    background-image: url("./footer.png");
     display: flex;
     flex-direction: column;
     background-size: cover;

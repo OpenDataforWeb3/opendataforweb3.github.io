@@ -20,7 +20,7 @@ export default function Footer(){
         </div>
 
         <div className={styles.navLinks}>
-          <a href={NAV_LINKS["ABOUT"]}>About</a>
+          <a href={NAV_LINKS["ABOUT"]}>About us</a>
           <a href={NAV_LINKS["BLOG"]}>Blog</a>
           <a href={NAV_LINKS["FORUM"]}>Forum</a>
           <a href={NAV_LINKS["HACKATHON"]}>Hackathon</a>
