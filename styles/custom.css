@@ -1,5 +1,5 @@
 /* fonts */
-/* @font-face {
+@font-face {
     font-family: 'Megaton';
     font-weight: 100;
     font-display: swap;
@@ -12,7 +12,7 @@
     font-display: swap;
     src: url(../public/voice-activated-bb/voiceactivatedbb_ot/VoiceActivatedBB_reg.otf) format('woff2');
   }
-   */
+  
   #__next .nx-mx-auto{
     max-width: 100% !important;
     font-family: 'voice-activated'!important;
@@ -26,6 +26,11 @@
   article div.nx-mt-16
   {
     margin-top: 0!important;
+  }
+
+  article div.nx-mt-12{
+    display: none;
+
   }
   /* a {
     text-decoration: none;
