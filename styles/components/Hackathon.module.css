@@ -1,8 +1,17 @@
 
 /* hero section */
-article div.nx-mt-16
-{
-  margin-top: 0!important;
+@font-face {
+  font-family: 'Megaton';
+  font-weight: 100;
+  font-display: swap;
+  src: url(/nextra/public/Megaton/Megaton.otf) format('woff2');
+}
+
+@font-face {
+  font-family: 'voice-activated';
+  font-weight: 100;
+  font-display: swap;
+  src: url(/nextra/public/voice-activated-bb/voiceactivatedbb_ot/VoiceActivatedBB_reg.otf) format('woff2');
 }
 .headerTxt {
     font-family: 'Megaton';

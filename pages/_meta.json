@@ -11,7 +11,7 @@
       "pagination": false
     }
   },
-  "about-us": {
+  "about": {
     "title": "About us",
     "type": "page",
     "theme": {
