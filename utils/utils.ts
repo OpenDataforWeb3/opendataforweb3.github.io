@@ -1,16 +1,16 @@
 export const NAV_LINKS = {
-    LANDSCAPE: "/docs/landscape",
-    DATA_DICTIONARY: "/docs/dataDictionary",
-    FAQ: "/docs/faq",
-    GET_INVOLVED: "/docs/getInvolved",
-    GLOSSARY: "/docs/glossary",
-    LEGOS: "/docs/legos",
-    BLOG: "/blog",
-    ABOUT: "/about",
+    LANDSCAPE: "/odc/docs/landscape",
+    DATA_DICTIONARY: "/odc/docs/dataDictionary",
+    FAQ: "/odc/docs/faq",
+    GET_INVOLVED: "/odc/docs/getInvolved",
+    GLOSSARY: "/odc/docs/glossary",
+    LEGOS: "/odc/docs/legos",
+    BLOG: "/odc/blog/data-builder-hackathon",
+    ABOUT: "/odc/about-us",
     FORUM: "https://forum.opendatacommunity.org/",
-    HACKATHON: "/hackathon",
+    HACKATHON: "/odc/hackathon",
     WIKI: "https://github.com/OpenDataforWeb3/Resources/wiki",
-    DOCS: "/docs",
+    DOCS: "/odc/docs/landscape",
   };
   
   export const SOCIAL_LINKS = {
