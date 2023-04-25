@@ -4,17 +4,11 @@
   font-family: 'Megaton';
   font-weight: 100;
   font-display: swap;
-  src: url(/nextra/public/Megaton/Megaton.otf) format('woff2');
+  src: url(../Megaton/Megaton.otf) format('woff2');
 }
 
-@font-face {
-  font-family: 'voice-activated';
-  font-weight: 100;
-  font-display: swap;
-  src: url(/nextra/public/voice-activated-bb/voiceactivatedbb_ot/VoiceActivatedBB_reg.otf) format('woff2');
-}
 .headerTxt {
-    font-family: 'Megaton';
+    font-family: 'Megaton'!important;
     font-weight: bolder;
     margin-bottom: 0px;
     background: rgb(0,201,178);
@@ -24,7 +18,7 @@
   }
   
   .subTxt {
-    font-family: 'Megaton';
+    font-family: 'Megaton'!important;
     font-weight: bolder;
     margin-bottom: 30px;
     background: rgb(0,201,178);

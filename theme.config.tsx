@@ -20,7 +20,7 @@ const config: DocsThemeConfig = {
     link: "https://github.com/OpenDataforWeb3/",
   },
   chat: {
-    link: "https://discord.gg/gitcoin",
+    link: "https://discord.gg/fmcSubzNwv",
   },
   navbar: {
     extraContent() {

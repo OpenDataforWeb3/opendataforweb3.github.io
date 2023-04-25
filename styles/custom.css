@@ -3,14 +3,14 @@
     font-family: 'Megaton';
     font-weight: 100;
     font-display: swap;
-    src: url(../public/Megaton/Megaton.otf) format('woff2');
+    src: url(./Megaton/Megaton.otf) format('woff2');
   }
   
   @font-face {
     font-family: 'voice-activated';
     font-weight: 100;
     font-display: swap;
-    src: url(../public/voice-activated-bb/voiceactivatedbb_ot/VoiceActivatedBB_reg.otf) format('woff2');
+    src: url(./voice-activated-bb/voiceactivatedbb_ot/VoiceActivatedBB_reg.otf) format('woff2');
   }
   
   #__next .nx-mx-auto{
