@@ -1,0 +1,149 @@
+.container {
+  width: 100%;
+  background-color: #f3f3f3;
+  margin-top: 30px;
+  overflow: hidden;
+  padding: 30px 0px;
+}
+
+.whatIsOdc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 30px auto;
+}
+
+.whatIsOdc img {
+  width: 280px;
+  height: auto;
+}
+
+.textContent {
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.textContent h3 {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 13px 0px;
+}
+
+.textContent p {
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.textContent a {
+  border: 1px solid #000;
+  border-radius: 25px;
+  background-color: transparent;
+  color: #000;
+  padding: 10px 24px;
+  font-size: 16px;
+}
+
+.textContent a:hover {
+  border: 1px solid #b314f8;
+  color: #b314f8;
+}
+
+@media screen and (min-width: 900px) {
+  .whatIsOdc {
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 50px 0px;
+  }
+
+  .whatIsOdc img {
+    width: 30%;
+    height: auto;
+    margin-right: 10%;
+  }
+
+  .textContent {
+    text-align: left;
+    margin: 20px 0px;
+    width: 50%;
+  }
+
+  .textContent h3 {
+    font-size: 40px;
+    margin: 0px 0px;
+  }
+
+  .textContent p {
+    font-size: 16px;
+  }
+
+  .textContent a {
+    font-size: 18px;
+  }
+
+  .textContent a:hover {
+    color: #7524bc;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .textContent {
+    width: 50%;
+  }
+
+  .textContent h3 {
+    font-size: 50px;
+    margin: 0px 0px;
+  }
+
+  .textContent p {
+    font-size: 17px;
+    width: 80%;
+  }
+
+  .textContent a {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1350px) {
+  .textContent {
+    width: 50%;
+  }
+
+  .textContent h3 {
+    font-size: 55px;
+    margin: 0px 0px;
+  }
+
+  .textContent p {
+    font-size: 18px;
+    width: 80%;
+  }
+
+  .textContent a {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .textContent {
+    width: 50%;
+  }
+
+  .textContent h3 {
+    font-size: 65px;
+    margin: 0px 0px;
+  }
+
+  .textContent p {
+    font-size: 21px;
+    width: 80%;
+  }
+
+  .textContent a {
+    font-size: 20px;
+  }
+}

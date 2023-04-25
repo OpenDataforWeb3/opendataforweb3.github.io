@@ -1,0 +1,144 @@
+.container {
+  background-color: #0e0e0e;
+  padding: 80px 0px;
+  overflow: hidden;
+}
+
+.AIPoweredDocs {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textContent {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.textContent h3 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.textContent h4 {
+  color: #5d5d5d;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 10px 0px;
+}
+
+.textContent p {
+  color: #fff;
+  width: 80%;
+  margin-bottom: 30px;
+}
+
+.textContent a {
+  color: #fff;
+  border: 1px solid #747474;
+  padding: 8px 16px;
+  border-radius: 16px;
+}
+
+.textContent a:hover {
+  border: 1px solid #fff;
+}
+.markPrompt {
+  margin-top: 40px;
+}
+
+@media screen and (min-width: 900px) {
+  .AIPoweredDocs {
+    display: flex;
+    flex-direction: row;
+    padding: 40px 0px;
+  }
+
+  .textContent {
+    text-align: left;
+    justify-content: center;
+    align-items: flex-start;
+    flex-basis: 60%;
+  }
+
+  .textContent h3 {
+    font-size: 42px;
+  }
+
+  .textContent h4 {
+    font-size: 26px;
+  }
+
+  .textContent p {
+    font-size: 18px;
+  }
+
+  .markPrompt {
+    margin-top: 40px;
+  }
+
+  .markPrompt {
+    flex-basis: 50%;
+    margin-left: -3%;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .textContent h3 {
+    font-size: 50px;
+  }
+
+  .textContent h4 {
+    font-size: 28px;
+  }
+
+  .textContent p {
+    font-size: 18px;
+  }
+
+  .markPrompt {
+    margin-left: -6%;
+  }
+}
+
+@media screen and (min-width: 1350px) {
+  .textContent h3 {
+    font-size: 55px;
+  }
+
+  .textContent h4 {
+    font-size: 30px;
+  }
+
+  .textContent p {
+    font-size: 19px;
+    width: 70%;
+  }
+
+  .markPrompt {
+    margin-left: -10%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .textContent h3 {
+    font-size: 60px;
+  }
+
+  .textContent h4 {
+    font-size: 34px;
+  }
+
+  .textContent p {
+    font-size: 20px;
+    width: 70%;
+  }
+
+  .markPrompt {
+    margin-left: -14%;
+  }
+}
