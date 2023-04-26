@@ -34,6 +34,7 @@ const config: DocsThemeConfig = {
   },
   nextThemes: {
     defaultTheme: "light",
+    forcedTheme: "light",
   },
   useNextSeoProps() {
     const { asPath } = useRouter()
