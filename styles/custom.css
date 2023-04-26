@@ -1,0 +1,45 @@
+/* fonts */
+@font-face {
+    font-family: 'Megaton';
+    font-weight: 100;
+    font-display: swap;
+    src: url(./Megaton/Megaton.otf) format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'voice-activated';
+    font-weight: 100;
+    font-display: swap;
+    src: url(./voice-activated-bb/voiceactivatedbb_ot/VoiceActivatedBB_reg.otf) format('woff2');
+  }
+  
+  #__next .nx-mx-auto{
+    max-width: 100% !important;
+    font-family: 'voice-activated'!important;
+    font-weight: 100!important;
+  }
+  
+  article.nx-w-full{
+    padding-left: 0!important;
+    padding-right: 0!important;
+  }
+  article div.nx-mt-16
+  {
+    margin-top: 0!important;
+  }
+
+  article div.nx-mt-12{
+    display: none;
+
+  }
+  /* a {
+    text-decoration: none;
+    font-family: "Space Grotesk", sans-serif;
+  }
+  
+  button {
+    font-family: "Space Grotesk", sans-serif;
+  } */
+  
+  /*  */
+  

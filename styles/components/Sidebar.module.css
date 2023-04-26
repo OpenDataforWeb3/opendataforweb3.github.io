@@ -1,0 +1,77 @@
+.linksAndSocials {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  height: 100vh;
+  overflow: auto;
+  background-color: #f3f3f3;
+  width: 40%;
+  padding: 15px;
+  z-index: 2;
+}
+
+.goback {
+  width: 30px;
+  height: 30px;
+  margin: 20px 10px;
+}
+
+.links {
+  margin: 40px 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.links a {
+  color: #000;
+  font-size: 16px;
+  margin: 20px 10px;
+}
+
+.docsButton {
+  color: #000;
+  background-color: transparent;
+  font-size: 16px;
+  margin: 20px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.docsDropDown {
+  display: inline-block;
+}
+
+.dropDownContent a {
+  color: #ac6eea;
+  padding: 5px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+}
+
+.hide {
+  display: none;
+}
+
+.socials {
+  margin: 0px 10px;
+  display: flex;
+  position: relative;
+  bottom: 0;
+}
+
+.socials a img {
+  width: 33px;
+  height: 30px;
+  margin: 0px 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .linksAndSocials {
+    display: none;
+  }
+}

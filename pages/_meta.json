@@ -1,0 +1,59 @@
+{
+  "index": {
+    "title": "Home",
+    "type": "page",
+    "theme": {
+      "layout": "full",
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": false,
+      "toc": true,
+      "pagination": false
+    }
+  },
+  "about": {
+    "title": "About us",
+    "type": "page",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": false,
+      "toc": false,
+      "pagination": false,
+      "typesetting": "article"
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "type": "page",
+    "theme": {
+      "toc": false,
+      "pagination": true,
+      "breadcrumb": false
+
+    }
+  },
+  "hackathon": {
+    "title": "Hackathon",
+    "type": "page",
+    "theme": {
+      "layout": "full",
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": false,
+      "toc": false,
+      "pagination": false
+    }
+  },
+  "docs": {
+    "title": "Docs",
+    "type": "page"
+  },
+  "forum":{
+    "title": "Forum",
+    "type": "page",
+    "href":"https://forum.opendatacommunity.org/",
+    "newWindow": true
+  }
+  
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="400px" height="400px" viewBox="0 0 400 400" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M0 0L400 0L400 400L0 400L0 0Z" id="path_1" />
+    <path d="M0 182.5C0 81.708 81.0364 0 181 0C280.964 0 362 81.708 362 182.5C362 283.292 280.964 365 181 365C81.0364 365 0 283.292 0 182.5Z" id="path_2" />
+    <clipPath id="clip_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+    <clipPath id="clip_2">
+      <use xlink:href="#path_2" />
+    </clipPath>
+  </defs>
+  <g id="Twitter/LinkedIn Profile Photo" clip-path="url(#clip_1)">
+    <path d="M0 0L400 0L400 400L0 400L0 0Z" id="TwitterLinkedIn-Profile-Photo" fill="#FFFFFF" fill-opacity="0" fill-rule="evenodd" stroke="none" />
+    <g id="Group-24" transform="translate(19 18)">
+      <g id="Oval-3">
+        <g clip-path="url(#clip_2)">
+          <use xlink:href="#path_2" fill="none" stroke="#2E0B3B" stroke-width="52" />
+        </g>
+      </g>
+      <path d="M75.8712 181.808L143.833 251.199L267.967 131.846" id="Vector-5" fill="none" fill-rule="evenodd" stroke="#2E0B3B" stroke-width="34" />
+    </g>
+  </g>
+</svg>

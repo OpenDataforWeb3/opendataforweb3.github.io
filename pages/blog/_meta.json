@@ -1,0 +1,23 @@
+{
+    "data-builder-hackathon":{
+        "title":"Data Builder Hackathon",
+        "theme":{
+            "typesetting": "article"
+
+        }
+    },
+    "odc-hackathon":{
+        "title":"OpenData Community partners twitter space",
+        "theme":{
+            "typesetting": "article"
+
+        }
+    },
+    "regen-rangers-hackathon":{
+        "title":"Regen Rangers Hackathon",
+        "theme":{
+            "typesetting": "article"
+        }
+    }
+
+}
