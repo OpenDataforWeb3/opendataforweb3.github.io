@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import styles from "../styles/components/Hackathon.module.css"
 import { Box, Grid, Typography } from '@mui/material';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Hackathon() {
 
@@ -75,7 +76,7 @@ export default function Hackathon() {
               justifyContent: "center",
             }}>
             <motion.img
-              src="illustrations/badg.svg"
+              src="/illustrations/badg.svg"
               height="300"
               width="400"
               initial="hidden"
@@ -92,10 +93,11 @@ export default function Hackathon() {
             justifyContent: "space-around",
           }}>
           <Grid item >
-            <img
-              src="illustrations/coin.svg"
+            <Image
+              src="/illustrations/coin.svg"
               height="300"
               width="400"
+              alt='coin'
 
             />
           </Grid>
@@ -119,25 +121,32 @@ export default function Hackathon() {
         <Grid item container className={styles.partners}>
           <Grid item container sx={{ justifyContent: 'center', pt: 5 }}><Typography variant='h3' sx={{ pt: 4 }}>Partners</Typography></Grid>
           <Grid item container sx={{ display: "flex", justifyContent: 'space-evenly' }} >
-            <img
+            <Image
               src="images/gitcoin.svg"
               alt="gitcoin"
+              height={100}
+              width={100}
             />
-            <img
+            <Image
               src="images/os.svg"
               alt="oseanProtocol"
+              height={100}
+              width={100}
             />
-            <img
+            <Image
               src="images/trueblocks.svg"
               alt="trueblocks"
+              height={100}
+              width={100}
+
             />
-            <img
+            <Image
               src="images/xyz.svg"
               alt="Supermodular.xyz"
               height="119"
               width="119"
             />
-            <img
+            <Image
               src="images/pokt.svg"
               height="90"
               width="90"
@@ -157,8 +166,11 @@ export default function Hackathon() {
             </Typography>
           </Grid>
           <Grid item >
-            <img
+            <Image
               src="images/data.svg"
+              alt='data'
+              height={400}
+              width={340}
             />
           </Grid>
         </Grid>

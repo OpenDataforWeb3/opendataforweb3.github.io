@@ -1,5 +1,6 @@
 import { SOCIAL_LINKS, NAV_LINKS } from "../utils/utils";
 import styles from "../styles/components/Footer.module.css";
+import Image from "next/image";
 
 export default function Footer(){
   return (
@@ -7,15 +8,15 @@ export default function Footer(){
       <div className={styles.footer}>
         <div className={styles.socials}>
           <a href={SOCIAL_LINKS["twitter"]} target="_blank">
-            <img src="socials/twitter_white.svg" />
+            <Image src="/socials/twitter_white.svg" alt="twitter" width= {40} height= {40}/>
           </a>
 
           <a href={SOCIAL_LINKS["github"]} target="_blank">
-            <img src="socials/github_white.svg" />
+            <Image src="/socials/github_white.svg" alt="github" width= {40} height= {40} />
           </a>
 
           <a href={SOCIAL_LINKS["discord"]} target="_blank">
-            <img src="socials/discord_white.svg" />
+            <Image src="/socials/discord_white.svg" alt="discord" width= {40} height= {40}/>
           </a>
         </div>
 

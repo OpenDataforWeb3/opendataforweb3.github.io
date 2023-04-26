@@ -9,7 +9,7 @@ const config: DocsThemeConfig = {
 
   logo: (
     <>
-      <img src="ODC.svg" width={24} height={24} />
+      <img src="/ODC.svg" width={24} height={24} />
       <span style={{ marginLeft: ".4em", fontWeight: 800 }}>OpenData Community</span>
     </>
   ),
