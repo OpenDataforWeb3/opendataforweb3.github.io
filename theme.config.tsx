@@ -36,6 +36,7 @@ const config: DocsThemeConfig = {
     defaultTheme: "light",
     forcedTheme: "light",
   },
+  darkMode: false,
   useNextSeoProps() {
     const { asPath } = useRouter()
     if (asPath !== '/') {
@@ -47,7 +48,6 @@ const config: DocsThemeConfig = {
 
   head: (
     <>
-     <title>OpenData Community</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta property="og:title" content={title}/>
       <meta property="og:description" content="The OpenData Community" />

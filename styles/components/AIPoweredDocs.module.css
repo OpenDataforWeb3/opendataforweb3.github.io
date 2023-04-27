@@ -48,6 +48,8 @@
   border: 1px solid #fff;
 }
 .markPrompt {
+  background-color: #fff;
+  color: #252425;
   margin-top: 40px;
 }
 
