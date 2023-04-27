@@ -11,17 +11,9 @@
       "pagination": false
     }
   },
-  "about": {
+  "about-us": {
     "title": "About us",
-    "type": "page",
-    "theme": {
-      "breadcrumb": false,
-      "footer": true,
-      "sidebar": false,
-      "toc": false,
-      "pagination": false,
-      "typesetting": "article"
-    }
+    "type": "page"
   },
   "blog": {
     "title": "Blog",
