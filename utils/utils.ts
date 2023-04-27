@@ -6,7 +6,7 @@ export const NAV_LINKS = {
     GLOSSARY: "/docs/glossary",
     LEGOS: "/docs/legos",
     BLOG: "/blog/data-builder-hackathon",
-    ABOUT: "/about/about",
+    ABOUT: "/about-us",
     FORUM: "https://forum.opendatacommunity.org/",
     HACKATHON: "/hackathon",
     WIKI: "https://github.com/OpenDataforWeb3/Resources/wiki",

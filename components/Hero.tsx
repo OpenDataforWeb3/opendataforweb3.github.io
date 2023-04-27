@@ -50,7 +50,7 @@ export const Hero = () => {
           The <span> OpenData </span>Community
         </h2>
         <p>
-          The OpenData Community protects web3 from fraudsters and the risks of
+          We protect web3 from fraudsters and the risks of
           centralization at the data layer.
         </p>
 

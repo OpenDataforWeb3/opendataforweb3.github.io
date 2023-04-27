@@ -63,7 +63,7 @@ export default function Markprompt({
 
   const iDontKnowMessage =
     _iDontKnowMessage || "Sorry, I am not sure how to answer that. Thanks!";
-  const placeholder = _placeholder || "Ask me anything related to the ODC...";
+  const placeholder = _placeholder || "Ask me anything related to ODC...";
 
   const submitPrompt = useCallback(
     async (e) => {

@@ -12,7 +12,7 @@ export default function Hackathon() {
       <div className={styles.heroImg}>
         <Box className={styles.heroTxt}>
           <span>
-            <Typography variant='h1' className={styles.headerTxt}>REGEN RANGER
+            <Typography variant='h1' className={styles.headerTxt}>REGEN RANGERS
             </Typography>
             <Typography variant='h2' className={styles.subTxt}>HACKATHON</Typography>
             <Typography variant='h4'>
