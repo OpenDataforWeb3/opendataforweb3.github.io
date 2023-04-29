@@ -11,10 +11,13 @@ let basePath = base_path
 
 
 module.exports = {
-  ...withNextra(),
+  ...withNextra({
+    output:"export",
+  }
+  ),
   images: {
     unoptimized: true,
-  },
+  }, 
   assetPrefix: assetPrefix,
   basePath: basePath,
 };
