@@ -41,7 +41,7 @@ export const TrainedModelDocs = () => {
 
         <div className={styles.markPrompt}>
           <Markprompt
-            projectKey="3LzTRVc4BpEB9tHVWGIQIjWY8AHTPJVa"
+            projectKey="Jh6GT8DaEAdSfHfYyNAx55ebMswKgOXq"
             model="gpt-3.5-turbo"
           />
         </div>

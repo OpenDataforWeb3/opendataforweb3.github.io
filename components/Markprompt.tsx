@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useRef, useState } from "react";
 import cn from "classnames";
 import remarkGfm from "remark-gfm";
 import ReactMarkdown from "react-markdown";
-
+import styles from "../styles/components/Markprompt.module.css";
 const MARKPROMPT_COMPLETIONS_URL = "https://api.markprompt.com/v1/completions";
 const STREAM_SEPARATOR = "___START_RESPONSE_STREAM___";
 
@@ -37,7 +37,7 @@ export default function Markprompt({
   didCompleteFirstQuery,
   onDark,
   completionsUrl,
-}:any){
+}: any) {
   const [prompt, setPrompt] = useState(undefined);
   const [answer, setAnswer] = useState("");
   const [references, setReferences] = useState([]);
@@ -119,7 +119,7 @@ export default function Markprompt({
               const parts = startText.split(STREAM_SEPARATOR);
               try {
                 refs = JSON.parse(parts[0]);
-              } catch {}
+              } catch { }
               setAnswer((prev) => prev + parts[1]);
               didHandleHeader = true;
             }
@@ -164,17 +164,17 @@ export default function Markprompt({
 
   return (
     <div
-      className="bg-white overflow-auto rounded-lg shadow-lg shadow-blend text-gray-700 p-6"
+      className={styles.gptWindow}
       style={viewportWidth > 1300 ? { height: "500px" } : { height: "380px" }}
     >
       <div className="h-12 border-b border-neutral-200">
         <form onSubmit={submitPrompt}>
-          <input
+        <input
             value={prompt || ""}
             type="text"
             onChange={(e) => setPrompt(e.target.value)}
             placeholder={placeholder}
-            className="bg-transparent text-black-900 py-2 px-4 focus:outline-none focus:border-transparent w-4/5"
+            className={styles.gptInput}
             autoComplete="off"
             autoCorrect="off"
             autoCapitalize="none"

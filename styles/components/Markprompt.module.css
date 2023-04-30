@@ -1,0 +1,15 @@
+.gptInput{
+    width: 100%!important;
+    background-color: #f3f3f3;
+
+}
+
+.gptInput::placeholder{
+    color: #808080!important;
+
+}
+
+.gptWindow{
+    background-color: #f3f3f3;
+    overflow-y: scroll;
+}
