@@ -1,7 +1,8 @@
 import styles from "../styles/components/AIPoweredDocs.module.css"
-import  Markprompt  from "./Markprompt";
+import Markprompt from "./Markprompt";
 import { motion } from "framer-motion";
 import { NAV_LINKS } from "../utils/utils";
+import Image from 'next/image';
 
 export const TrainedModelDocs = () => {
   const textVariants = {
@@ -13,7 +14,16 @@ export const TrainedModelDocs = () => {
     },
     hidden: { opacity: 0 },
   };
-
+  const ODCImageVariants = {
+    visible: {
+      y: 0,
+      transition: {
+        type: "spring",
+        stiffness: 150,
+      },
+    },
+    hidden: { y: "30vh" },
+  };
   return (
     <div className={styles.container}>
       <div className={styles.AIPoweredDocs}>
@@ -23,28 +33,27 @@ export const TrainedModelDocs = () => {
           whileInView="visible"
           variants={textVariants}
         >
-          <h3>Need Quick Clarity?</h3>
-          <h4>Ask Our ChatGPT trained model</h4>
           <p>
-            You can ask any question you have regarding the OpenData Community.
-            We’ve trained it on all of our written materials so far. So ask
-            right here and receive accurate and helpful answers in real-time.
-            Say goodbye to the frustration of sifting through endless pages of
-            documentation. Ask it how to write a Lego - or how to get involved?
-            Or even why we ODC exist.
+            Take a look at our resources - community contributed FAQs, wikis, repositories and more.<br></br>
+            If you have questions about how to find and prevent Sybils and other fraudsters - and how to decentralize your data stack - please take a look.
           </p>
-
           <a href={NAV_LINKS["DOCS"]} target="_blank">
-            Our Docs &gt;
+            View Docs &gt;
           </a>
         </motion.div>
-
-        <div className={styles.markPrompt}>
+        <motion.img
+          initial="hidden"
+          whileInView="visible"
+          variants={ODCImageVariants}
+          alt={"docs"}
+          src="/illustrations/docs.svg"
+        />
+        {/* <div className={styles.markPrompt}>
           <Markprompt
             projectKey="3LzTRVc4BpEB9tHVWGIQIjWY8AHTPJVa"
             model="gpt-3.5-turbo"
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );

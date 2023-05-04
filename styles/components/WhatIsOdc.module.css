@@ -15,11 +15,6 @@
   margin: 30px auto;
 }
 
-.whatIsOdc img {
-  width: 280px;
-  height: auto;
-}
-
 .textContent {
   text-align: center;
   margin: 20px 0px;
@@ -59,7 +54,7 @@
   }
 
   .whatIsOdc img {
-    width: 30%;
+    width: 33%;
     height: auto;
     margin-right: 10%;
   }
