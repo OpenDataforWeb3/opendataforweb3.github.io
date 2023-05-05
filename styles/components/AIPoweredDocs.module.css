@@ -61,6 +61,13 @@
     padding: 40px 0px;
   }
 
+  .AIPoweredDocs img {
+    width: 36%;
+    height: auto;
+    margin-right: 10%;
+  }
+
+
   .textContent {
     text-align: left;
     justify-content: center;
