@@ -1,11 +1,11 @@
 .container {
-  background-color: #0e0e0e;
+  background-color: #48414c;
   padding: 80px 0px;
   overflow: hidden;
 }
 
 .AIPoweredDocs {
-  width: 90%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -19,29 +19,30 @@
 }
 
 .textContent h3 {
-  color: #fff;
+  color: #E4E4E4;
   font-size: 40px;
   font-weight: 600;
 }
 
 .textContent h4 {
-  color: #5d5d5d;
+  color: #E4E4E4;
   font-size: 24px;
   font-weight: 600;
   margin: 10px 0px;
 }
 
 .textContent p {
-  color: #fff;
+  color: #E4E4E4;
   width: 80%;
   margin-bottom: 30px;
 }
 
 .textContent a {
   color: #fff;
-  border: 1px solid #747474;
+  border: 1px solid #acabab;
   padding: 8px 16px;
   border-radius: 16px;
+  margin-bottom: 9px;
 }
 
 .textContent a:hover {
@@ -60,11 +61,18 @@
     padding: 40px 0px;
   }
 
+  .AIPoweredDocs img {
+    width: 36%;
+    height: auto;
+    margin-right: 10%;
+  }
+
+
   .textContent {
     text-align: left;
     justify-content: center;
     align-items: flex-start;
-    flex-basis: 60%;
+    flex-basis: 70%;
   }
 
   .textContent h3 {
