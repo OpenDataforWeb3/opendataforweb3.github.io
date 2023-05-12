@@ -5,7 +5,7 @@ import Typography from '@mui/material/Typography';
 import { Grid } from '@mui/material';
 import Link from 'next/link';
 import { motion } from "framer-motion";
-import styles from "../../styles/projects-styles/card.module.css"
+import styles from "../../styles/projects-styles/Card.module.css"
 
 export default function MediaCard({ title, link, src }) {
     const boxHover = {

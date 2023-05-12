@@ -11,8 +11,8 @@ import IconPeopleRoof from '../../public/icons/IconPeopleRoof';
 import IconLightningChargeFill from '../../public/icons/IconLightningChargeFill';
 import IconCodereview from '../../public/icons/IconReview';
 import { Grid } from '@mui/material';
-import styles from "../../styles/projects-styles/steps.module.css";
 import { motion } from "framer-motion";
+import styles from "../../styles/projects-styles/Steps.module.css"
 
 const steps = ['Be an ODC member in good standing',
   'Have a great idea for a project that is aligned with the ODC mission and values',
@@ -43,11 +43,12 @@ export default function Steps() {
               </TimelineDot>
               <TimelineConnector sx={{ height: 190 }} />
             </TimelineSeparator>
-            <TimelineContent className={styles.title}>
+            <TimelineContent >
               <motion.div
                 initial="hidden"
                 whileInView="visible"
                 variants={textVariants}
+                className={styles.title}
               >{steps[0]}
               </motion.div>
             </TimelineContent>
@@ -58,8 +59,9 @@ export default function Steps() {
               </TimelineDot>
               <TimelineConnector sx={{ height: 190 }} />
             </TimelineSeparator>
-            <TimelineContent className={styles.title}>
+            <TimelineContent>
               <motion.div
+              className={styles.title}
                 initial="hidden"
                 whileInView="visible"
                 variants={textVariants}
@@ -73,8 +75,9 @@ export default function Steps() {
               </TimelineDot>
               <TimelineConnector sx={{ height: 190 }} />
             </TimelineSeparator>
-            <TimelineContent className={styles.title}>
+            <TimelineContent>
               <motion.div
+              className={styles.title}
                 initial="hidden"
                 whileInView="visible"
                 variants={textVariants}
@@ -88,8 +91,9 @@ export default function Steps() {
                 <IconCodereview />
               </TimelineDot>
             </TimelineSeparator>
-            <TimelineContent className={styles.title}>
+            <TimelineContent>
               <motion.div
+              className={styles.title}
                 initial="hidden"
                 whileInView="visible"
                 variants={textVariants}
