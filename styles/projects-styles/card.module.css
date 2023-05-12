@@ -1,0 +1,44 @@
+.cardContent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myCard{
+  align-items: center;
+  display: flex;
+  height: 230px;
+  width: 100%;
+}
+
+.projectsCard:hover{
+  opacity: 0.8;
+  box-shadow: 1px 2px 3px 3px #aaaaaa7b;
+}
+
+.projectsCardContent{
+  display: flex;
+  justify-content: center ; 
+  height: 260px;
+  width: 260px;
+  flex-wrap: wrap;
+}
+
+.projectsCardContent h5{
+  font-family: 'voice-activated';
+  text-align: center
+}
+
+@media(max-width:768px){
+  .myCard{
+  height: 430px;
+  align-items: center;
+  display: flex;
+  }
+
+  .cardContent{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+}
