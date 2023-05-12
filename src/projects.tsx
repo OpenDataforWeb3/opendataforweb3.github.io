@@ -23,9 +23,8 @@ export default function Projects() {
   const items = [
     { text: "Grants program", src: "/illustrations/program.svg" },
     { text: "Governance or metagovernance assistance", src: "/illustrations/gover.svg" },
-    { text: "Aqueduct", src: "/illustrations/course.svg" },
     { text: "Smart contract audits", src: "/illustrations/contract.svg" },
-    { text: "Other launch assistance", src: "/illustrations/showSupport.svg" },
+    { text: "Other launch assistance", src: "/illustrations/showSupport.svg" }
   ];
 
   return (
@@ -38,12 +37,11 @@ export default function Projects() {
             md={6}
             lg={6}
             className={styles.txt} sx={{
-              py: 9,
-              mb: 5
+              pt: 4,
             }}>
             <span>
               <Typography variant="h1">
-                The SandBox Project
+                SandBox Projects
               </Typography>
               <Typography sx={{ pb: 5, fontSize: 24 }}>
                 projects that are supported by the OpenData community

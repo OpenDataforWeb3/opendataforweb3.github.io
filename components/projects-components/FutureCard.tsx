@@ -30,15 +30,15 @@ export default function FutureCard({ title, src }) {
       >
         <Card variant="elevation" sx={{ height: 280, width: 300 }}>
           <CardContent >
-            <Grid container spacing={3} sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-              <Grid item >
+            <Grid container spacing={3} sx={{display:'flex',justifyContent:'center' }}>
+              <Grid item xs  sx={{display:'flex',justifyContent:'center', height: 160, width: 200 }}>
                 <Image
                   src={src}
                   alt='illustration'
-                  height={130}
+                  height={160}
                   width={190} />
               </Grid>
-              <Grid item xs container sx={{ display: 'flex', alignContent: 'center', textAlign: 'center', justifyContent: 'center' }}>
+              <Grid item container  sx={{display:'flex',justifyContent:'center',alignItems:'end',textAlign:'center',mt:2 }} >
                 <Typography color="text.secondary" >
                   {title}
                 </Typography>

@@ -37,7 +37,6 @@
 .box h1{
   font-family: 'ricky';
   font-weight: 100;
-  padding-top:30px ;
   padding-bottom:18px ;
   color: #48414c;
 }
@@ -45,9 +44,8 @@
 .hero {
   display: flex;
   justify-content: space-around;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: 'column';
-  margin: 20px;
   color: #48414c;
   padding-bottom: 50px;
   }
@@ -75,7 +73,7 @@
 
 .txt{
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   text-align: center;
  }
 
