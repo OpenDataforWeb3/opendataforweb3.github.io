@@ -1,7 +1,6 @@
 {
   "index": {
     "title": "Home",
-    "type": "page",
     "theme": {
       "layout": "full",
       "breadcrumb": false,
@@ -40,6 +39,18 @@
   "docs": {
     "title": "Docs",
     "type": "page"
+  },
+  "projects":{
+    "title":"Projects",
+    "type":"page",
+    "theme": {
+      "layout": "full",
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": false,
+      "toc": false,
+      "pagination": false
+    }
   },
   "forum":{
     "title": "Forum",
