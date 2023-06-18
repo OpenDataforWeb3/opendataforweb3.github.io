@@ -12,7 +12,7 @@ import IconLightningChargeFill from '../../public/icons/IconLightningChargeFill'
 import IconCodereview from '../../public/icons/IconReview';
 import { Grid } from '@mui/material';
 import { motion } from "framer-motion";
-import styles from "../../styles/projects-styles/Steps.module.css"
+import styles from "../../styles/projects-components/Steps.module.css"
 
 const steps = ['Be an ODC member in good standing',
   'Have a great idea for a project that is aligned with the ODC mission and values',

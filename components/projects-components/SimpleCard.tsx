@@ -4,7 +4,7 @@ import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import { Grid } from '@mui/material';
 import Image from 'next/image';
-import styles from "../../styles/projects-styles/Card.module.css"
+import styles from "../../styles/projects-components/Card.module.css"
 import { motion } from "framer-motion";
 
 export default function SimpleCard({ title, src }) {
