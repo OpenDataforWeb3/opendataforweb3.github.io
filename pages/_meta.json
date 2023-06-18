@@ -15,7 +15,15 @@
   "about-us": {
     "title": "About us",
     "type": "page",
-    "display":"hidden"
+    "display":"hidden",
+    "theme": {
+      "layout": "full",
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": false,
+      "toc": false,
+      "pagination": false
+    }
   },
   "blog": {
     "title": "Blog",
