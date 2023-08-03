@@ -1,28 +1,49 @@
 {
   "index": {
-    "title": "Home",
+    "title" : "Home",
+    "type": "page",
+    "display":"hidden",
     "theme": {
       "layout": "full",
       "breadcrumb": false,
       "footer": true,
       "sidebar": false,
-      "toc": true,
+      "toc": false,
       "pagination": false
     }
   },
   "about-us": {
     "title": "About us",
-    "type": "page"
+    "type": "page",
+    "display":"hidden",
+    "theme": {
+      "layout": "full",
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": false,
+      "toc": false,
+      "pagination": false
+    }
   },
   "blog": {
     "title": "Blog",
     "type": "page",
+    "display":"hidden",
     "theme": {
       "toc": false,
       "pagination": true,
       "breadcrumb": false
-
     }
+  },
+  "data":{
+    "title": "Data",
+    "type": "page",
+    "href":"https://data.opendatacommunity.org",
+    "newWindow": true
+  },
+  "docs": {
+    "title": "Docs",
+    "type": "page"
   },
   "hackathon": {
     "title": "Hackathon",
@@ -36,10 +57,6 @@
       "pagination": false
     }
   },
-  "docs": {
-    "title": "Docs",
-    "type": "page"
-  },
   "projects":{
     "title":"Projects",
     "type":"page",
@@ -52,11 +69,24 @@
       "pagination": false
     }
   },
-  "forum":{
-    "title": "Forum",
-    "type": "page",
-    "href":"https://forum.opendatacommunity.org/",
-    "newWindow": true
+  "more": {
+    "title": "More",
+    "type": "menu",
+    "items":{
+      "about-us":{
+        "title":"About us",
+        "href":"/about-us"
+      },
+      "blog":{
+        "title":"Blog",
+        "href":"/blog/data-builder-hackathon"
+      },
+      "forum":{
+        "title": "Forum",
+        "href":"https://forum.opendatacommunity.org",
+        "newWindow": true
+      }
+    }
   }
   
 }

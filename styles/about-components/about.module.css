@@ -1,0 +1,146 @@
+.container{
+    color: #48414c;
+    background-color: #f9f8ff;
+}
+
+.container h2{
+    font-size: 64px;
+    font-weight: 600;
+    padding-top:30px;
+    padding-bottom: 30px;
+}
+
+.container p{
+    font-size: 20px;
+}
+
+.container span{
+    font-weight: 800;
+}
+
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    
+}
+
+.item{
+    justify-content: center;
+    width: 55%;
+}
+
+.secBox{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+    align-items: center;
+
+}
+
+.secItem{
+    justify-content: center;
+    width: 55%;
+}
+
+.thirdBox{
+    background-color: #f1f1f2;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+    align-items: center;
+
+
+}
+
+.thirdItem{
+    justify-content: center;
+    width: 55%;
+}
+
+.partners{
+    padding-bottom: 60px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.partners div{
+    width: 100%;
+}
+
+.partnersTitle{
+    padding: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center; 
+}
+
+.spons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.lastSec{
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.lastSec p{
+    width: 80%;
+    text-align: center;
+    padding: 80px 30px ;
+}
+
+.lastSec a{
+    color: #f57f02;
+}
+
+
+@media(max-width:768px){
+    .item{
+        order:2 ;
+        width: 80%;
+        text-align: center;
+
+    }
+    .container h2{
+        font-size: 40px;
+    }
+    .container img{
+        padding: 30px;
+    }
+    .container p{
+        font-size: 16px ;
+    }
+    .secItem{
+        width: 80%;
+        text-align: center;
+
+    }
+    .thirdItem{
+        order:2 ;
+        width: 80%;
+        text-align: center;
+
+    }
+    .partners{
+        margin-bottom: 0px;
+    }
+  }

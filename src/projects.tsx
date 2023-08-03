@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "../styles/projects-styles/Projects.module.css"
+import styles from "../styles/projects-components/Projects.module.css"
 import { Grid, Typography } from '@mui/material';
 import Link from 'next/link';
 import Image from 'next/image';
