@@ -45,18 +45,6 @@
     "title": "Docs",
     "type": "page"
   },
-  "hackathon": {
-    "title": "Hackathon",
-    "type": "page",
-    "theme": {
-      "layout": "full",
-      "breadcrumb": false,
-      "footer": true,
-      "sidebar": false,
-      "toc": false,
-      "pagination": false
-    }
-  },
   "projects":{
     "title":"Projects",
     "type":"page",
