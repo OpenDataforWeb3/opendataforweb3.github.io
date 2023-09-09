@@ -1,8 +1,13 @@
 import { SOCIAL_LINKS, NAV_LINKS } from "../utils/utils";
 import styles from "../styles/components/Footer.module.css";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
-export default function Footer(){
+export default function Footer() {
+  const boxHover = {
+    scale: 1.05,
+    y: 10,
+  };
   return (
     <div className={styles.container}>
       <div className={styles.footer}>
@@ -39,6 +44,57 @@ export default function Footer(){
             <a href={NAV_LINKS["GET_INVOLVED"]}>Get Involved</a>
             <a href={NAV_LINKS["LEGOS"]}>Legos</a>
           </div>
+        </div>
+        <div className={styles.spons}>
+          <div className={styles.partnersTitle}><h2>Supporters</h2></div>
+          <a href='https://www.covalenthq.com/'>
+            <motion.img
+              src="images/covalent.png"
+              height={150}
+              width={180}
+              alt="covalent"
+              whileHover={boxHover}
+            /></a>
+          <a href='https://www.gitcoin.co/'>
+            <motion.img
+              src="images/gitcoin.svg"
+              alt="gitcoin"
+              height={50}
+              width={50}
+              whileHover={boxHover}
+            /> </a>
+          <a href='https://oceanprotocol.com/'>
+            <motion.img
+              src="images/oc-white.svg"
+              alt="oceanProtocol"
+              height={50}
+              width={50}
+              whileHover={boxHover}
+            /></a>
+          <a href='https://trueblocks.io/'>
+            <motion.img
+              src="images/trueblocks.svg"
+              alt="trueblocks"
+              height={50}
+              width={50}
+              whileHover={boxHover}
+            /></a>
+          <a href='https://supermodular.xyz/'>
+            <motion.img
+              src="images/xyz.svg"
+              alt="Supermodular.xyz"
+              height={50}
+              width={50}
+              whileHover={boxHover}
+            /></a>
+          <a href='https://www.pokt.network/'>
+            <motion.img
+              src="images/pokt.svg"
+              height={40}
+              width={40}
+              alt="poktNetwork"
+              whileHover={boxHover}
+            /></a>
         </div>
       </div>
     </div>
