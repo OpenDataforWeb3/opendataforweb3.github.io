@@ -2,19 +2,20 @@ import React from 'react'
 import MediaCard from './MediaCard';
 import { Grid, Typography } from '@mui/material';
 import IconLego from '../../public/icons/IconLego';
-import IconCodereview from '../../public/icons/IconReview';
 import IconDashboard from '../../public/icons/IconDashboard';
-import IconDashboardLine from '../../public/icons/IconDashboardLine';
 
 
 export default function CurrentProjects() {
     const header = "Current sandbox projects";
 
     const content: Array<any> = [
-        { title: "Grants Review Dashboard", link: "https://github.com/OpenDataforWeb3-sandbox/Grant-Review-Dashboard", src: <IconCodereview height={130} width={130}  color={'#713996'}/> },
+        { title: "Sybil Scorer", link: "https://github.com/poupou-web3/sybil-scorer", src: <img src='images/sybil-scorer.svg' width={150} /> },
+        { title: "Mirall0x", link: "https://github.com/OpenDataforWeb3/Mirall0x", src: <IconDashboard height={130} width={130} color={'#713996'} /> },
+        { title: " GIS ", link: "https://github.com/OpenDataforWeb3/GIS", src: <IconLego height={130} width={130} color={'#f57f02'} /> },
+        { title: "Grants Review Dashboard", link: "https://github.com/OpenDataforWeb3-sandbox/Grant-Review-Dashboard", src: <IconDashboard height={130} width={130} color={'#713996'} /> },
+        { title: "Datadex", link: "https://github.com/davidgasquez/datadex", src: <IconLego height={130} width={130} color={'#f57f02'} /> },
+        { title: "Sybil Dashboard", link: "https://github.com/OpenDataforWeb3-sandbox/sybilscan-app", src: <IconDashboard height={130} width={130} color={'#713996'} /> },
         { title: "Lego Curration", link: "https://github.com/OpenDataforWeb3-sandbox/Lego-Curation", src: <IconLego height={130} width={130} color={'#f57f02'} /> },
-        { title: "Sybil Dashboard", link: "https://github.com/OpenDataforWeb3-sandbox/sybilscan-app", src:<IconDashboard height={130} width={130}  color={'#713996'} />  },
-        { title: "Datadex", link: "https://github.com/davidgasquez/datadex", src:<IconDashboardLine height={130} width={130} color={'#f57f02'} /> },
     ];
 
     return (
