@@ -11,6 +11,7 @@
   justify-content: center;
   align-items: center;
   padding: 30px;
+  flex-wrap: wrap;
 }
 
 .socials {
@@ -30,6 +31,12 @@
 
 .docsLinks {
   display: none;
+}
+
+
+.spons{
+  display: none;
+
 }
 
 @media screen and (min-width: 850px) {
@@ -73,5 +80,26 @@
     color: #fff;
     border-bottom: 2px solid #832cac;
     margin: 6px;
+  }
+
+  .spons{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    width:  20%;
+    margin-left:  10px;
+  }
+  
+  .spons a{
+    padding: 5px;
+  }
+  
+  .partnersTitle{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    padding: 5px;
+    font-size: 16px;
+    color: #fff;
   }
 }
