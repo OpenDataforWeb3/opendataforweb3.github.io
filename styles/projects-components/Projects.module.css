@@ -6,7 +6,6 @@
   }
 
 .content{
-  width: 90%;
   display: flex;
   justify-content: center;
 }
@@ -80,7 +79,6 @@
 .currentProjects{
   background-color: #f1f1f2;
   height: max-content;
-  border-radius: 3px;
   padding: 50px;
 }
 

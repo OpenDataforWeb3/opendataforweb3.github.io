@@ -18,7 +18,7 @@ export default function MediaCard({ title, link, src }) {
             sm={12}
             md={3}
             lg={3}
-            sx={{ display: 'flex', justifyContent: 'center', alignItems: 'start' }}
+            sx={{ display: 'flex', justifyContent: 'center', alignItems: 'start',mb:3 }}
         >
             <motion.div whileHover={boxHover} className={styles.projectsCard} >
 
@@ -26,7 +26,7 @@ export default function MediaCard({ title, link, src }) {
                     <Link href={link} >
                         <CardContent className={styles.projectsCardContent}>
                             {src}
-                            <Typography variant="h5" sx={{ py: 3 }}>
+                            <Typography variant="h5" sx={{ py: 3, width:'100%' }}>
                                 {title}
                             </Typography>
 
