@@ -1,16 +1,12 @@
-@font-face {
-    font-family: 'ricky';
-    font-weight: 100;
-    font-display: swap;
-    src: url(../ricky-brandon.regular.otf) format('woff2');
-  }
 
 .particlesCon{
     padding-top: 30px;
-    height: 270px;
+    height: 300px;
     position: relative;
     width: 100%;
     background-color: #713996 ;
+    display: flex;
+    justify-content: center;
 }
 
 .tsparticles {
@@ -26,19 +22,25 @@
 }
 
 .headerTxt{
-    top: 90px;
+    top: 30%;
     position: absolute;
-    font-family: 'ricky';
-    font-size: 96px !important;
-    font-weight: 400;
-    word-spacing: 4px;
-    width:100% ;
-    height: 100%;
+    font-size:7rem!important;
+    letter-spacing: 3px!important;
     display: flex;
-    padding: 0;
-    margin: 0;
     justify-content: center;
+    align-items: center;
     color: #f1f1f2;
     z-index: 3;
 }
 
+.sub{
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width:768px){
+.sub h3{
+    font-size: 34px!important;
+    text-align: center!important;
+}
+}

@@ -57,6 +57,18 @@
       "pagination": false
     }
   },
+  "main-project":{
+    "title":"Main Project",
+    "type":"page",
+    "theme": {
+      "layout": "full",
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": false,
+      "toc": false,
+      "pagination": false
+    }
+  },
   "more": {
     "title": "More",
     "type": "menu",

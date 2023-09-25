@@ -136,3 +136,17 @@ export const NAV_LINKS = {
     },
     retina_detect: true
   };
+
+  export const props:any = {
+    createdOn: 'Aug 8, 2023',
+    gtihub: 'https://github.com/OpenDataforWeb3/GIS',
+    discord: 'https://discord.com/channels/1037443230993743902/1141034397307523154',
+    description: `We are working to test and deploy the Bert4Eth model, which, as the name indicates, 
+      uses a transformer approach to learn representations of users on Ethereum.
+      for more information check`,
+    info: 'We have been conducting research into approaches to apply Deep Learning for Sybil Detection. In September of 2023 a community member started a residence working with Funding the Commons on this project.',
+    supporter: ' Funding the Commons',
+    bert4EthGithub:'https://github.com/git-disl/BERT4ETH ',
+    thanks:'We would like to thank Funding the Commons for their support and the authors of the Bert4Eth paper who have been very kind in providing us with some initial guidance.',
+    conclusion:'We welcome participation of all sorts. We will need to KYC any collaborators who access our lists of Sybils which were gathered carefully by ourselves and others including Gitcoin.',
+  };
