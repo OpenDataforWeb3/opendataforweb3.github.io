@@ -139,7 +139,7 @@ export const NAV_LINKS = {
 
   export const props:any = {
     createdOn: 'Aug 8, 2023',
-    gtihub: 'https://github.com/OpenDataforWeb3/GIS',
+    github: 'https://github.com/OpenDataforWeb3/GIS',
     discord: 'https://discord.com/channels/1037443230993743902/1141034397307523154',
     description: `We are working to test and deploy the Bert4Eth model, which, as the name indicates, 
       uses a transformer approach to learn representations of users on Ethereum.
