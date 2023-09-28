@@ -30,6 +30,17 @@
     justify-content: flex-end;
 }
 
+.inv  {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.inv a:hover{
+    scale: 1.1;
+
+}
+
 .date  {
     display: flex;
     justify-content: flex-start;
@@ -90,6 +101,9 @@
     }
     .conc{
         padding: 20px;
+    }
+    .social{
+        margin-top: 9px;
     }
 
 }

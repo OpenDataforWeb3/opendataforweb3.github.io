@@ -141,12 +141,9 @@ export const NAV_LINKS = {
     createdOn: 'Aug 8, 2023',
     github: 'https://github.com/OpenDataforWeb3/GIS',
     discord: 'https://discord.com/channels/1037443230993743902/1141034397307523154',
-    description: `We are working to test and deploy the Bert4Eth model, which, as the name indicates, 
-      uses a transformer approach to learn representations of users on Ethereum.
-      for more information check`,
-    info: 'We have been conducting research into approaches to apply Deep Learning for Sybil Detection. In September of 2023 a community member started a residence working with Funding the Commons on this project.',
+    description: `The GIS or Graph based Identification of Sybils project is working to use state of the art deep learning models to identify likely Sybils.
+    As of the Fall of 2023, we are working with the Bert4eth model which has achieved outstanding results as a foundation model.  Bert4eth is itself based upon Bert the well known transformer model.`,
+    goal: 'Our goal is to keep everything open source and to also provide pipelines and other related software for free to the broader community.  We are always in need of more support as we improve our data pipelines and fixed train and fine tune underlying models.',
     supporter: ' Funding the Commons',
-    bert4EthGithub:'https://github.com/git-disl/BERT4ETH ',
-    thanks:'We would like to thank Funding the Commons for their support and the authors of the Bert4Eth paper who have been very kind in providing us with some initial guidance.',
-    conclusion:'We welcome participation of all sorts. We will need to KYC any collaborators who access our lists of Sybils which were gathered carefully by ourselves and others including Gitcoin.',
+    conclusion:'To get involved feel free to join our Discord or engage with us on our Github.',
   };
