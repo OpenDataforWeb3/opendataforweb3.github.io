@@ -13,6 +13,13 @@
     src: url(./voice-activated-bb/voiceactivatedbb_ot/VoiceActivatedBB_reg.otf) format('woff2');
   }
   
+  @font-face {
+    font-family: 'ricky';
+    font-weight: 100;
+    font-display: swap;
+    src: url(./ricky-brandon.regular.otf) format('woff2');
+  }
+
   #__next .nx-mx-auto{
     max-width: 100% !important;
     font-family: 'voice-activated'!important;

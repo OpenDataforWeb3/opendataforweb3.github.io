@@ -1,0 +1,46 @@
+
+.particlesCon{
+    padding-top: 30px;
+    height: 300px;
+    position: relative;
+    width: 100%;
+    background-color: #713996 ;
+    display: flex;
+    justify-content: center;
+}
+
+.tsparticles {
+    position: absolute;
+    height:  100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    z-index: 0; 
+}
+
+.headerTxt{
+    top: 30%;
+    position: absolute;
+    font-size:7rem!important;
+    letter-spacing: 3px!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f1f1f2;
+    z-index: 3;
+}
+
+.sub{
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width:768px){
+.sub h3{
+    font-size: 34px!important;
+    text-align: center!important;
+}
+}
