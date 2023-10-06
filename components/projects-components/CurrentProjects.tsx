@@ -2,7 +2,6 @@ import React from 'react'
 import MediaCard from './MediaCard';
 import { Grid, Typography } from '@mui/material';
 import IconLego from '../../public/icons/IconLego';
-import IconDashboard from '../../public/icons/IconDashboard';
 import IconReview from '../../public/icons/IconReview';
 import IconBarChart from '../../public/icons/IconBarChart';
 import IconPieChart from '../../public/icons/IconPieChart';
@@ -13,8 +12,8 @@ export default function CurrentProjects() {
     const header = "Current sandbox projects";
 
     const content: Array<any> = [
-        { title: "Sybil Scorer", link: "https://github.com/poupou-web3/sybil-scorer", src: <img src='images/sybil-scorer.svg' width={150} /> },
-        { title: "Mirall0x", link: "https://github.com/OpenDataforWeb3/Mirall0x", src: <IconDashboard height={130} width={130} color={'#713996'} /> },
+        { title: "Sybil Scorer", link: "https://github.com/poupou-web3/sybil-scorer", src: <img src='images/sybil-scorer.svg' height={140} width={150} /> },
+        { title: "Mirall0x", link: "https://github.com/OpenDataforWeb3/Mirall0x", src: <img src='images/mirall.svg' height={140} width={140} /> },
         { title: "GIS", link: "/main-project", src: <IconPieChart height={130} width={130} color={'#f57f02'} /> },
         { title: "Grants Review Dashboard", link: "https://github.com/OpenDataforWeb3-sandbox/Grant-Review-Dashboard", src: <IconReview height={130} width={130} color={'#713996'} /> },
         { title: "Datadex", link: "https://github.com/davidgasquez/datadex", src: <IconBarChart height={130} width={130} color={'#f57f02'} /> },
